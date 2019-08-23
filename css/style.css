@@ -1,0 +1,24 @@
+/******* General *******/
+
+html {
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  /* font-family: 'Didot_Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../assets/fonts/Didot Regular/Didot Regular.ttf'); */
+}
+
+body {
+  /* font-family: Adobe_Casolon_Pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 25px;
+  background-color: #ffffff;
+  color: #737373;
+  margin: 0;
+  padding: 0; */
+}
