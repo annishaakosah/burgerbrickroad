@@ -56,7 +56,9 @@ function markerLocation(){
 
 }
 
-
+function storeBurgerPrice() {
+    upperBurgerPrice = document.getElementById('priceLimit').value;
+}
 
 
 //Load the map when the page has finished loading.
@@ -70,7 +72,11 @@ function submitInput() {
         x.style.display = "none";
     }
 
+    storeBurgerPrice();
+
     console.log(currentLocation.lat()); //latitude
+    console.log(upperBurgerPrice); //latitude
+
 
     //document.getElementById('showBurgers').style.display = "block";
 
