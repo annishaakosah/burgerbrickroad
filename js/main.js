@@ -77,37 +77,40 @@ function submitInput() {
 
     storeBurgerPrice();
 
-    console.log(currentLocation.lat()); //latitude
-    console.log(upperBurgerPrice); //latitude
+    console.log("Price: " + lowerBurgerPrice + " " + upperBurgerPrice);
+    filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
 
 }
 
-// getVenueLocation(element.resturant);
+function getAllBurgerLocations() {
+    burgers.forEach((element) => {
+        getVenueLocation(element.Restaurant);
+    });
+}
+
+
 
 function getVenueLocation(venue) {
     var dataObject;
     var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
     var Http = new XMLHttpRequest();
-    const url=`https://maps.googleapis.com/maps/api/geocode/json?address=Apache+Wellington+NZ,+CA&key=${APIKey}`;
+    const url=`https://maps.googleapis.com/maps/api/geocode/json?address=${venue}+Wellington+NZ,+CA&key=${APIKey}`;
     Http.open("GET", url);
     Http.send();
 
     Http.onload = function() {
         dataObject =  JSON.parse(Http.responseText);
-        console.log(dataObject.results[0].geometry.location.lat);
+        console.log(dataObject.results[0].geometry.location);
     };
 }
-    //console.log(currentLocation.lat()); //latitude
 
-    //document.getElementById('showBurgers').style.display = "block";
-    console.log("Price: " + lowerBurgerPrice + " " + upperBurgerPrice);
-    filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
-}
 
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
     });
+    getAllBurgerLocations();
+
 }
 
 function filterBurgers(burgers, minPrice, maxPrice){
