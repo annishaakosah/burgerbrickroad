@@ -79,7 +79,7 @@ function submitInput() {
 
 
     //document.getElementById('showBurgers').style.display = "block";
-    
+
 }
 
 function loadJson(){

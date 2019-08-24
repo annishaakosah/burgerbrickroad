@@ -27,57 +27,119 @@
     <meta name="description" content="" />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 
     <!-- Custom Fonts, Stylesheets and Javascript -->
     <link rel='stylesheet' href='css/style.css'/>
+    <link rel="stylesheet" type="text/css" href="css/full-page-scroll.css">
+    <style type="text/css">
+        .section1 {
+            background-color: #7DBCD4;
+        }
 
+        .section2 {
+            background-color: #98C19F;
+        }
+
+        .section3 {
+            background-color:  #A199E2;
+        }
+
+        .section4 {
+            background-color:  #CC938E;
+        }
+
+        .section5 {
+            background-color:  #D2C598;
+        }
+
+        section div {
+            font-family: 'Avenir', sans-serif;
+            font-style: normal;
+            text-align: center;
+            position: relative;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+
+        span {
+            font-size: 4em;
+            font-style: normal;
+            color: #fff;
+        }
+
+        .button {
+            background-color: #F2CF66;
+            border-bottom: 5px solid #D1B358;
+            text-shadow: 0 -2px #D1B358;
+            padding: 10px 40px;
+            border-radius: 10px;
+            font-size: 25px;
+            color: #FFF;
+            text-decoration: none;
+        }
+    </style>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 
 <body onload="loadJson()">
-    <!-- Landing Section -->
-    <section>
-
-    </section>
-
-    <!-- Price Section Section -->
-    <section>
-        <form>
-            <h1>Most I'd pay for a burger:<br></h1>
-            <input type="decimal" id="priceLimit">
-        </form>
-    </section>
-
-    <!-- Location Section -->
-    <section>
-        <h1>Select a location!</h1>
-        <p>Click on a location on the map to select it. Drag the marker to change location.</p>
-
-        <!--map div-->
-        <div id="map"></div>
-
-        <!--our form-->
-        <p>Chosen Location</p>
-
-        <form method="post">
-            <input type="text" id="lat" readonly="yes"><br>
-            <input type="text" id="lng" readonly="yes">
-        </form>
-        <button onclick="submitInput()">SUBMIT</button>
-    </section>
-
-    <!-- Results Section Section -->
-    <section>
-        <div id="showBurgers" style="display:none;">
-            THESE ARE BURGERS. YUM. <br><br>
-            YOUR LOCATION: <br>
-            Lat: <p id="latShow"></p>
+<div id="main" class="scroll-container">
+    <section class="section1">
+        <div>
+            <span class="brand">Burger Brick Road</span>
+            <p  class="brand-subtitle">This is a burger generator for Wellington on a plate. It will generate the top 10 restaurants based on your preferences. After you have selected the restaurants you want to visit you can send yourself an email from the generation.</p>
+        </div>
+        <div>
+            <a href="#1" class="button">Let's Get Started!</a>
         </div>
     </section>
 
-<!-- All JS files -->
-<script src="js/main.js"></script>
+    <section class="section2">
+        <div>
+            <span class="section-title">Most I'd pay for a burger:</span>
+            <form>
+                <input type="decimal" id="priceLimit">
+            </form>
+        </div>
+    </section>
 
+    <section class="section3">
+        <div>
+            <span class="section-title">Select a location!</span>
+            <!--map div-->
+            <div style="margin: auto" id="map"></div>
+            <!--our form-->
+            <p>Chosen Location</p>
+
+            <form method="post">
+                <input type="text" id="lat" readonly="yes"><br>
+                <input type="text" id="lng" readonly="yes">
+            </form>
+            <button onclick="submitInput()">SUBMIT</button>
+        </div>
+    </section>
+
+    <section class="section4">
+        <div>
+            <span class="section-title">These are your burgers! YUM 🤤</span>
+            <div id="showBurgers" style="display:none;">
+                YOUR LOCATION: <br>
+                Lat: <p id="latShow"></p>
+            </div>
+        </div>
+    </section>
+</div>
+<!-- All JS files -->
+<script src="js/full-page-scroll.js"></script>
+<script type="text/javascript">
+    new fullScroll({
+        mainElement: 'main',
+        displayDots: true,
+        dotsPosition: 'left',
+        animateTime: 0.7,
+        animateFunction: 'ease'
+    });
+</script>
+<script src="js/main.js"></script>
 </body>
 </html>
