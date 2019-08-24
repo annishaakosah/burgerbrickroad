@@ -1,6 +1,6 @@
-# Create Camp 2019
+# Burger Brick Road
 
-Made with ❤️ by Nevin Jojo, Amber Joseph, Annisha Akosah, and Jack Hazlehurst
+Made with ❤️ by Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, and Blake
 
 **Notes:**
 - TBD
