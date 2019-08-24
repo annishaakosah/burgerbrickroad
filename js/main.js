@@ -1,18 +1,20 @@
 //Set up some of our variables.
 var map; //Will contain map object.
 var marker = false; ////Has the user plotted their location marker?
+var currentLocation;
+var upperBurgerPrice;
 
 //Function called to initialize / create the map.
 //This is called when the page has loaded.
 function initMap() {
 
     //The center location of our map.
-    var centerOfMap = new google.maps.LatLng(52.357971, -6.516758);
+    var centerOfMap = new google.maps.LatLng(-41.289955235463474, 174.77653881396486);
 
     //Map options.
     var options = {
         center: centerOfMap, //Set center.
-        zoom: 7 //The zoom value.
+        zoom: 13 //The zoom value.
     };
 
     //Create the map object.
@@ -47,12 +49,29 @@ function initMap() {
 //values to our textfields so that we can save the location.
 function markerLocation(){
     //Get location.
-    var currentLocation = marker.getPosition();
+    currentLocation = marker.getPosition();
     //Add lat and lng values to a field that we can save.
     document.getElementById('lat').value = currentLocation.lat(); //latitude
     document.getElementById('lng').value = currentLocation.lng(); //longitude
+
 }
+
+
 
 
 //Load the map when the page has finished loading.
 google.maps.event.addDomListener(window, 'load', initMap);
+
+function submitInput() {
+    var x = document.getElementById("showBurgers");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
+
+    console.log(currentLocation.lat()); //latitude
+
+    //document.getElementById('showBurgers').style.display = "block";
+
+}

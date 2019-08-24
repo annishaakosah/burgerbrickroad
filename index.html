@@ -30,21 +30,17 @@
     <!-- Custom Fonts, Stylesheets and Javascript -->
     <link rel='stylesheet' href='css/style.css'/>
 
-    <!-- Favicon -->
-
-
-<!-- oncontextmenu enables/ disables right clicks -->
-
     <style type="text/css">
         #map{ width:700px; height: 500px; }
     </style>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-    <title>Save Marker Example</title>
 </head>
+
+
 
 <body>
 <form>
-    Most I'd pay for a burger:<br>
+    <h1>Most I'd pay for a burger:<br></h1>
     <input type="decimal" name="priceLimit">
 </form>
 <h1>Select a location!</h1>
@@ -54,14 +50,23 @@
 <div id="map"></div>
 
 <!--our form-->
-<h2>Chosen Location</h2>
+<p>Chosen Location</p>
+
 <form method="post">
     <input type="text" id="lat" readonly="yes"><br>
     <input type="text" id="lng" readonly="yes">
 </form>
 
-<script type="text/javascript" src="map.js"></script>
+<!--<script type="text/javascript" src="main.js"></script>-->
 
+<button onclick="submitInput()">SUBMIT</button>
+
+<div id="showBurgers" style="display:none;">
+    THESE ARE BURGERS. YUM. <br><br>
+    YOUR LOCATION: <br>
+    Lat: <p id="latShow"></p>
+
+</div>
 <!-- All JS files -->
 <script src="js/main.js"></script>
 </body>
