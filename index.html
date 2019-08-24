@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst">
+    <meta name="author" content="Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, Black Dine">
 
     <!-- Open Group meta tags for Facebook-->
     <meta property="og:title" content=""/>
@@ -30,43 +30,50 @@
     <!-- Custom Fonts, Stylesheets and Javascript -->
     <link rel='stylesheet' href='css/style.css'/>
 
-    <style type="text/css">
-        #map{ width:700px; height: 500px; }
-    </style>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 
-
-
 <body>
-<form>
-    <h1>Most I'd pay for a burger:<br></h1>
-    <input type="decimal" id="priceLimit">
-</form>
-<h1>Select a location!</h1>
-<p>Click on a location on the map to select it. Drag the marker to change location.</p>
+    <!-- Landing Section -->
+    <section>
 
-<!--map div-->
-<div id="map"></div>
+    </section>
 
-<!--our form-->
-<p>Chosen Location</p>
+    <!-- Price Section Section -->
+    <section>
+        <form>
+            <h1>Most I'd pay for a burger:<br></h1>
+            <input type="decimal" id="priceLimit">
+        </form>
+    </section>
 
-<form method="post">
-    <input type="text" id="lat" readonly="yes"><br>
-    <input type="text" id="lng" readonly="yes">
-</form>
+    <!-- Location Section -->
+    <section>
+        <h1>Select a location!</h1>
+        <p>Click on a location on the map to select it. Drag the marker to change location.</p>
 
-<!--<script type="text/javascript" src="main.js"></script>-->
+        <!--map div-->
+        <div id="map"></div>
 
-<button onclick="submitInput()">SUBMIT</button>
+        <!--our form-->
+        <p>Chosen Location</p>
 
-<div id="showBurgers" style="display:none;">
-    THESE ARE BURGERS. YUM. <br><br>
-    YOUR LOCATION: <br>
-    Lat: <p id="latShow"></p>
+        <form method="post">
+            <input type="text" id="lat" readonly="yes"><br>
+            <input type="text" id="lng" readonly="yes">
+        </form>
+        <button onclick="submitInput()">SUBMIT</button>
+    </section>
 
-</div>
+    <!-- Results Section Section -->
+    <section>
+        <div id="showBurgers" style="display:none;">
+            THESE ARE BURGERS. YUM. <br><br>
+            YOUR LOCATION: <br>
+            Lat: <p id="latShow"></p>
+        </div>
+    </section>
+
 <!-- All JS files -->
 <script src="js/main.js"></script>
 </body>

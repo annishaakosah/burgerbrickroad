@@ -3,6 +3,7 @@ var map; //Will contain map object.
 var marker = false; ////Has the user plotted their location marker?
 var currentLocation;
 var upperBurgerPrice;
+var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
 
 //Function called to initialize / create the map.
 //This is called when the page has loaded.
@@ -77,7 +78,20 @@ function submitInput() {
     console.log(currentLocation.lat()); //latitude
     console.log(upperBurgerPrice); //latitude
 
+}
 
-    //document.getElementById('showBurgers').style.display = "block";
+// getVenueLocation(element.resturant);
 
+function getVenueLocation(venue) {
+    var dataObject;
+    var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
+    var Http = new XMLHttpRequest();
+    const url=`https://maps.googleapis.com/maps/api/geocode/json?address=Apache+Wellington+NZ,+CA&key=${APIKey}`;
+    Http.open("GET", url);
+    Http.send();
+
+    Http.onload = function() {
+        dataObject =  JSON.parse(Http.responseText);
+        console.log(dataObject.results[0].geometry.location.lat);
+    };
 }
