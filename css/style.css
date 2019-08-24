@@ -5,27 +5,32 @@ html {
 }
 
 @font-face {
-  /* font-family: 'Didot_Regular';
+  font-family: 'Avenir';
   font-style: normal;
   font-weight: normal;
-  src: url('../assets/fonts/Didot Regular/Didot Regular.ttf'); */
+  src: url('../assets/fonts/avenir/Avenir-Book.otf');
 }
 
-body {
-  /* font-family: Adobe_Casolon_Pro, serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 18px;
-  line-height: 25px;
-  background-color: #ffffff;
-  color: #737373;
-  margin: 0;
-  padding: 0; */
+.brand {
+    font-family: Avenir, sans-serif;
+    font-size: 80pt;
+    font-weight: 400;
+    font-style: normal;
+    color: #FFFFFF;
+}
+
+.brand-subtitle {
+  padding: 0 100px 0 100px !important;
+  color: #FFFFFF;
+  font-size: 14pt;
+}
+
+.section-title {
+    font-family: Avenir, sans-serif;
+    color: #FFFFFF;
 }
 
 #map{
-  width:700px;
-  height: 500px;
+    width:700px;
+    height: 500px;
 }
-
-
