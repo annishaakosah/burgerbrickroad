@@ -84,14 +84,16 @@ function submitInput() {
 
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
-        filterBurgers(obj, 20);
+        filterBurgers(obj, 20, 25);
     });
 }
 
-function filterBurgers(burgers, maxPrice){
+function filterBurgers(burgers, minPrice, maxPrice){
     var filteredBurgers = burgers.slice();
-    filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice));
+    filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice && Number(burger.Price.substring(1)) >= minPrice));
     filteredBurgers.forEach((element) => {
         console.log(element.Price);
     });
+
+    return filterBurgers;
 }
