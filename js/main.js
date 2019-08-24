@@ -79,8 +79,8 @@ function submitInput() {
     //console.log(currentLocation.lat()); //latitude
 
     //document.getElementById('showBurgers').style.display = "block";
-    console.log("Price: " + lowerBurgerPrice + " " + upperBurgerPrice);
-    filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
+    let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
+    console.log(filteredBurgers)
 }
 
 function loadJson(){
