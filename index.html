@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="keywords" content="">
-    <meta name="author" content="Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst">
+    <meta name="author" content="Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, Black Dine">
 
     <!-- Open Group meta tags for Facebook-->
     <meta property="og:title" content=""/>
@@ -32,12 +32,49 @@
     <!-- Custom Fonts, Stylesheets and Javascript -->
     <link rel='stylesheet' href='css/style.css'/>
 
-    <!-- Favicon -->
-
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
 </head>
 
-<!-- oncontextmenu enables/ disables right clicks -->
-<body oncontextmenu="return false" onload="loadJson()">
+<body onload="loadJson()">
+    <!-- Landing Section -->
+    <section>
+
+    </section>
+
+    <!-- Price Section Section -->
+    <section>
+        <form>
+            <h1>Most I'd pay for a burger:<br></h1>
+            <input type="decimal" id="priceLimit">
+        </form>
+    </section>
+
+    <!-- Location Section -->
+    <section>
+        <h1>Select a location!</h1>
+        <p>Click on a location on the map to select it. Drag the marker to change location.</p>
+
+        <!--map div-->
+        <div id="map"></div>
+
+        <!--our form-->
+        <p>Chosen Location</p>
+
+        <form method="post">
+            <input type="text" id="lat" readonly="yes"><br>
+            <input type="text" id="lng" readonly="yes">
+        </form>
+        <button onclick="submitInput()">SUBMIT</button>
+    </section>
+
+    <!-- Results Section Section -->
+    <section>
+        <div id="showBurgers" style="display:none;">
+            THESE ARE BURGERS. YUM. <br><br>
+            YOUR LOCATION: <br>
+            Lat: <p id="latShow"></p>
+        </div>
+    </section>
 
 <!-- All JS files -->
 <script src="js/main.js"></script>
