@@ -2,8 +2,10 @@
 var map; //Will contain map object.
 var marker = false; ////Has the user plotted their location marker?
 var currentLocation;
+var lowerBurgerPrice;
 var upperBurgerPrice;
 var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
+var burgers;//all burgers
 
 //Function called to initialize / create the map.
 //This is called when the page has loaded.
@@ -58,12 +60,12 @@ function markerLocation(){
 }
 
 function storeBurgerPrice() {
-    upperBurgerPrice = document.getElementById('priceLimit').value;
+    lowerBurgerPrice = document.getElementById('priceMin').value;
+    upperBurgerPrice = document.getElementById('priceMax').value;
 }
 
-
 //Load the map when the page has finished loading.
-google.maps.event.addDomListener(window, 'load', initMap);
+//google.maps.event.addDomListener(window, 'load', initMap);
 
 function submitInput() {
     var x = document.getElementById("showBurgers");
@@ -94,4 +96,27 @@ function getVenueLocation(venue) {
         dataObject =  JSON.parse(Http.responseText);
         console.log(dataObject.results[0].geometry.location.lat);
     };
+}
+    //console.log(currentLocation.lat()); //latitude
+
+    //document.getElementById('showBurgers').style.display = "block";
+    console.log("Price: " + lowerBurgerPrice + " " + upperBurgerPrice);
+    filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
+}
+
+function loadJson(){
+    $.getJSON('../data/burgers.json', function(obj) {
+        burgers = obj;
+    });
+}
+
+function filterBurgers(burgers, minPrice, maxPrice){
+    var filteredBurgers = burgers.slice();
+    filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice && 
+        Number(burger.Price.substring(1)) >= minPrice));
+    filteredBurgers.forEach((element) => {
+        console.log(element.Price);
+    });
+
+    return filterBurgers;
 }
