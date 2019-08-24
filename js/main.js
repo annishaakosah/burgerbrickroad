@@ -77,8 +77,9 @@ function submitInput() {
 
     storeBurgerPrice();
 
-    console.log("Price: " + lowerBurgerPrice + " " + upperBurgerPrice);
-    filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
+    //document.getElementById('showBurgers').style.display = "block";
+    let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
+    // console.log(filteredBurgers);
 
 }
 
@@ -104,7 +105,6 @@ function getVenueLocation(venue) {
     };
 }
 
-
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
@@ -118,7 +118,6 @@ function filterBurgers(burgers, minPrice, maxPrice){
     filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice && 
         Number(burger.Price.substring(1)) >= minPrice));
     filteredBurgers.forEach((element) => {
-        console.log(element.Price);
     });
 
     return filterBurgers;
