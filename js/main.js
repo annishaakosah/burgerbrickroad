@@ -77,8 +77,9 @@ function submitInput() {
 
     storeBurgerPrice();
 
-    console.log(currentLocation.lat()); //latitude
-    console.log(upperBurgerPrice); //latitude
+    //document.getElementById('showBurgers').style.display = "block";
+    let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
+    // console.log(filteredBurgers);
 
 }
 
@@ -94,14 +95,8 @@ function getVenueLocation(venue) {
 
     Http.onload = function() {
         dataObject =  JSON.parse(Http.responseText);
-        console.log(dataObject.results[0].geometry.location.lat);
+        // console.log(dataObject.results[0].geometry.location.lat);
     };
-}
-    //console.log(currentLocation.lat()); //latitude
-
-    //document.getElementById('showBurgers').style.display = "block";
-    let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
-    console.log(filteredBurgers)
 }
 
 function loadJson(){
@@ -115,7 +110,6 @@ function filterBurgers(burgers, minPrice, maxPrice){
     filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice && 
         Number(burger.Price.substring(1)) >= minPrice));
     filteredBurgers.forEach((element) => {
-        console.log(element.Price);
     });
 
     return filterBurgers;
