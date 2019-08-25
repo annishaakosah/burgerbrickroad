@@ -82,10 +82,12 @@
 
     <div id="main" class="scroll-container">
       <section class="section1">
-          <img class='logo' src="assets/images/icon.svg" alt="WOAP Icon">
+        <img class='logo' src="assets/images/icon.svg" alt="WOAP Icon">
         <div>
           <span class="brand">Burger Brick Road</span>
-          <p  class="brand-subtitle">This is a burger generator for Wellington on a plate. It will generate the top 10 restaurants based on your preferences. After you have selected the restaurants you want to visit you can send yourself an email from the generation.</p>
+          <p class="brand-subtitle">Find the top 10 burgers that are suited to your personal location and price range. 
+Why wait when you’re hungry?
+</p>
         </div>
         <div>
           <a href="#1" class="scroll"></a>
@@ -104,45 +106,45 @@
 
 
       <div class="section3">
-        <div>
+
           <span class="section-title">Pick a location</span>
           <p class="description">Select near where you want to eat by clicking on the map</p>
 
           <!--map div-->
-          <div style="margin: auto" id="map" class="map"></div>
+          <div id="map" class="map"></div>
 
           <!-- <form method="post">
-            <input type="text" id="lat" readonly="yes"><br>
-            <input type="text" id="lng" readonly="yes">
-          </form> -->
+          <input type="text" id="lat" readonly="yes"><br>
+          <input type="text" id="lng" readonly="yes">
+        </form> -->
 
-          <button class="text-button" onclick="submitInput()">Generate</button>
-        </div>
-      </div>
+        <button class="text-button" onclick="submitInput()">Generate</button>
+
+    </div>
 
     <section class="section4">
-        <div id="burger-details-container">
-            <span class="section-title">These are your burgers! YUM 🤤</span>
-<!--            <div id="showBurgers">-->
-<!--                YOUR LOCATION: <br>-->
-<!--                Lat: <p id="latShow"></p>-->
-<!--            </div>-->
-        </div>
+      <div id="burger-details-container">
+        <span class="section-title">These are your burgers! YUM 🤤</span>
+        <!--            <div id="showBurgers">-->
+        <!--                YOUR LOCATION: <br>-->
+        <!--                Lat: <p id="latShow"></p>-->
+        <!--            </div>-->
+      </div>
     </section>
-</div>
-<div class="results-div" id="results-div">
+  </div>
+  <div class="results-div" id="results-div">
     <p>testing</p>
-</div>
-<!-- All JS files -->
-<script src="js/full-page-scroll.js"></script>
-<script type="text/javascript">
-    new fullScroll({
-      mainElement: 'main',
-      displayDots: true,
-      dotsPosition: 'left',
-      animateTime: 0.7,
-      animateFunction: 'ease'
-    });
+  </div>
+  <!-- All JS files -->
+  <script src="js/full-page-scroll.js"></script>
+  <script type="text/javascript">
+  new fullScroll({
+    mainElement: 'main',
+    displayDots: true,
+    dotsPosition: 'left',
+    animateTime: 0.7,
+    animateFunction: 'ease'
+  });
   </script>
   <script src="js/main.js"></script>
 </body>

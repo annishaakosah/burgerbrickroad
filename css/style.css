@@ -45,8 +45,9 @@ body {
 .section-title {
   font-family: Avenir-Black, sans-serif;
   color: #F69F3A;
-  margin-bottom: 36px;
+  margin-bottom: 20px;
   margin-top: 100px;
+  line-height: 1;
 }
 
 .logo {
@@ -71,17 +72,19 @@ body {
 
 
 .map{
-  display: block;
-  margin-bottom: 36px;
+  display:;
+  margin-bottom: 32px;
   width:700px;
   height: 500px;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 
 .section3 {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .slidecontainer {
