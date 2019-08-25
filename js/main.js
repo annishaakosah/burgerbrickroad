@@ -78,11 +78,13 @@ function submitInput() {
     storeBurgerPrice();
     console.log(currentLocation.lat() + " " + currentLocation.lng())
 
+
+    console.log(burgers);
     //document.getElementById('showBurgers').style.display = "block";
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
     console.log(filteredBurgers);
 
-    let sortedBurgers = sortBurgersByDistance(filteredBurgers, -41.2907081, 174.7737182, 0.1, 10);
+    let sortedBurgers = sortBurgersByDistance(filteredBurgers, currentLocation.lat(), currentLocation.lng(), 0.5, 10);
     console.log(sortedBurgers);
 }
 
@@ -128,4 +130,4 @@ function deg2rad(deg) {
     return deg * (Math.PI/180)
 }
 
-window.onload = function () { initMap() };
+window.onload = function () { initMap(); loadJson(); };
