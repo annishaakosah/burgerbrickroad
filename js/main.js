@@ -119,9 +119,10 @@ function submitInput() {
                     str += '<h5 class="burger-details">Dietary Requirements: ' + burger["Dietary Requirements"] + '</h5>';
                     str += '<h5 class="burger-details">Dietary Requirements: ' + burger.Fries + '</h5>';
                     str += '<h5 class="burger-details">' + burger.Description + '</h5>';
-                    str += '<h3 class="burger-price">Price: ' + burger.Price + '</h3>';
-                    str += '<h3 class="burger-price">With beer: ' + burger["with Beer"] + '</h3>';
+                    // str += '<h3 class="burger-price">Price: ' + burger.Price + '     With beer: ' + burger["with Beer"] +'</h3>';
                 str += '</div>';
+
+                str += '<h3 class="burger-price">Price: ' + burger.Price + '     With beer: ' + burger["with Beer"] +'</h3>';
             str += '</div>';
 
             str += '<div class="column">';

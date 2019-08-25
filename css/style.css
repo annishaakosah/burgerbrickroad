@@ -12,7 +12,7 @@ html {
 }
 
 .brand {
-  font-family: Avenir, sans-serif;
+  font-family: 'Avenir', sans-serif;
   font-size: 80pt;
   font-weight: 400;
   font-style: normal;
@@ -71,27 +71,49 @@ html {
   display: flex;
   background-color: #4e59ba;
   margin: 5% 10% 20px;
+  padding: 52px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
 }
 
 .column img {
   max-width: 300px;
+  align-self: center;
+  margin: auto 0;
 }
 
 .left {
   flex-basis: 66%;
+  padding-right: 20px;
 }
 
-.restaurant-name .burger-details .burger-name .burger-price {
-  font-family: Avenir, sans-serif;
-  color: #f69f3a;
-  font-size: 15px;
-}
-
-.restaurant-name .burger-name .burger-price {
+.restaurant-name, .burger-details, .burger-name, .burger-price {
+  font-family: 'Avenir', sans-serif;
   color: #fee6c9;
+  font-size: 15px;
+  margin: 0;
+}
+
+.restaurant-name, .burger-name, .burger-price {
+  color: #f69f3a;
   font-size: 30px;
 }
 
 .burger-price {
-  font-size: 27px;
+  font-size: 20px;
+  margin-top: 20px;
+  align-self: flex-end;
+  width: 100%;
 }
+
+.restaurant-name, .burger-name {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.restaurant-details {
+  margin-bottom: 20px;
+ }
