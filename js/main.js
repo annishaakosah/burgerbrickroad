@@ -78,16 +78,19 @@ function submitInput() {
     storeBurgerPrice();
     console.log(currentLocation.lat() + " " + currentLocation.lng())
 
+
+    console.log(burgers);
     //document.getElementById('showBurgers').style.display = "block";
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
-    //console.log(filteredBurgers);
+    console.log(filteredBurgers);
 
+    let sortedBurgers = sortBurgersByDistance(filteredBurgers, currentLocation.lat(), currentLocation.lng(), 0.5, 10);
+    console.log(sortedBurgers);
 }
 
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
-        console.log(getDistanceFromLatLonInKm(-41.2850653, 174.7788754,  -41.1173913, 174.8928507));
     });
 
 }
@@ -99,7 +102,15 @@ function filterBurgers(burgers, minPrice, maxPrice){
     filteredBurgers.forEach((element) => {
     });
 
-    return filterBurgers;
+    return filteredBurgers;
+}
+
+function sortBurgersByDistance(burgers, latitude, longitude, range, maxNum){
+    var sortedBurgers = burgers.slice();
+    sortedBurgers = sortedBurgers.filter((burger) => (
+        getDistanceFromLatLonInKm(latitude, longitude,  burger.lat, burger.lon) <= range
+    ));
+    return sortedBurgers.slice(0, Math.min(maxNum, sortedBurgers.length));
 }
 
 function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
@@ -119,4 +130,4 @@ function deg2rad(deg) {
     return deg * (Math.PI/180)
 }
 
-window.onload = function () { initMap() };
+window.onload = function () { initMap(); loadJson(); };
