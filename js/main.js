@@ -86,6 +86,7 @@ function submitInput() {
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
+        console.log(getDistanceFromLatLonInKm(-41.2850653, 174.7788754,  -41.1173913, 174.8928507));
     });
 
 }
