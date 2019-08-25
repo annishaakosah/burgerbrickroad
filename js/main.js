@@ -4,7 +4,7 @@ var marker = false; ////Has the user plotted their location marker?
 var currentLocation;
 var lowerBurgerPrice;
 var upperBurgerPrice;
-var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
+//var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
 var burgers;//all burgers
 
 //Function called to initialize / create the map.
@@ -22,7 +22,7 @@ function initMap() {
 
     //Create the map object.
     map = new google.maps.Map(document.getElementById('map'), options);
-
+    console.log("MAP LOADING");
     //Listen for any clicks on the map.
     google.maps.event.addListener(map, 'click', function(event) {
         //Get the location that the user clicked.
@@ -76,6 +76,7 @@ function submitInput() {
     }
 
     storeBurgerPrice();
+    console.log(currentLocation.lat() + " " + currentLocation.lng())
 
     //document.getElementById('showBurgers').style.display = "block";
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
@@ -125,3 +126,5 @@ function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
 function deg2rad(deg) {
     return deg * (Math.PI/180)
 }
+
+window.onload = function () { initMap() };
