@@ -79,7 +79,7 @@ function submitInput() {
 
     //document.getElementById('showBurgers').style.display = "block";
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
-    // console.log(filteredBurgers);
+    //console.log(filteredBurgers);
 
 }
 
@@ -88,7 +88,6 @@ function getAllBurgerLocations() {
         getVenueLocation(element.Restaurant);
     });
 }
-
 
 
 function getVenueLocation(venue) {
@@ -108,8 +107,9 @@ function getVenueLocation(venue) {
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
+        getAllBurgerLocations();
+
     });
-    getAllBurgerLocations();
 
 }
 
