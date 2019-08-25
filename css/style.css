@@ -1,7 +1,18 @@
 /******* General *******/
+* {
+    font-family: 'Avenir', sans-serif;
+}
 
 html {
   scroll-behavior: smooth;
+  background-color: #2D378C;
+
+}
+
+body {
+  overflow: hidden;
+  background-color: #2D378C;
+
 }
 
 @font-face {
@@ -11,38 +22,104 @@ html {
   src: url('../assets/fonts/avenir/Avenir-Book.otf');
 }
 
+@font-face {
+  font-family: 'Avenir-Black';
+  font-style: normal;
+  font-weight: bold;
+  src: url('../assets/fonts/avenir/Avenir-Black.otf');
+}
+
 .brand {
-  font-family: 'Avenir', sans-serif;
-  font-size: 80pt;
+  font-family: Avenir-Black, sans-serif;
+  font-size: 80px;
   font-weight: 400;
   font-style: normal;
-  color: #FFFFFF;
 }
 
 .brand-subtitle {
-  padding: 0 100px 0 100px !important;
-  color: #FFFFFF;
+  padding: 0 300px 0 300px !important;
+  line-height: 30px;
   font-size: 14pt;
 }
 
 .section-title {
-  font-family: Avenir, sans-serif;
-  color: #FFFFFF;
+  font-family: Avenir-Black, sans-serif;
+  color: #F69F3A;
+  margin-bottom: 36px;
+  margin-top: 100px;
 }
 
-/*#map{*/
-  /*width:700px;*/
-  /*height: 500px;*/
-/*}*/
+.logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.scroll-container .section3 {
+  width: 100%;
+  height: 100%;
+  font-style: normal;
+  text-align: center;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #2D378C;
+  color: #F69F3A;
+  border-top: none;
+}
+
+
+.map{
+  display: block;
+  margin-bottom: 36px;
+  width:700px;
+  height: 500px;
+}
 
 
 .section3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  margin-left: 0;
-  margin-right: 0;
-  height: auto;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 700px;
+  height: 16px;
+  margin-top: 30%;
+  background: #FFFFFF;
+  border-radius: 7px;
+  outline: none;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #F69F3A;
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #F69F3A;
+  cursor: pointer;
 }
 
 #showBurgers {
@@ -53,6 +130,26 @@ html {
   /*transform: none;*/
   /*margin-left: 25%;*/
   /*margin-right: 25%;*/
+}
+
+
+.text-button {
+border: 0;
+background-color: transparent;
+color: #F69F3A;
+font-size: 30px;
+font-family: Avenir-Black, sans-serif;
+padding: 8px 16px;
+transition: all .2s ease-in-out;
+
+}
+
+.text-button:hover { transform: scale(1.1); }
+
+.description {
+font-size: 15px;
+color: white;
+margin-bottom: 36px;
 }
 
 .results-div {
@@ -116,4 +213,5 @@ html {
 
 .restaurant-details {
   margin-bottom: 20px;
- }
+  font-size: 27px;
+}
