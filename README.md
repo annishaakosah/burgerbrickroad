@@ -1,9 +1,5 @@
 # Burger Brick Road
 
-Made with ❤️ by Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, and Blake
+A Wellington On A Plate project to find the top 10 burgers that are suited to your personal location and price range. 
 
-**Notes:**
-- TBD
-
-**The tasks in this project includes:**
-- [ ] TBD
+Made with ❤️ by Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, and Blake Dine.
