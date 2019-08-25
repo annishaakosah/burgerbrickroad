@@ -81,7 +81,7 @@ function submitInput() {
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
     console.log(filteredBurgers);
 
-    let sortedBurgers = sortBurgersByDistance(filteredBurgers, -41.2907081, 174.7737182, 0.5);
+    let sortedBurgers = sortBurgersByDistance(filteredBurgers, -41.2907081, 174.7737182, 0.1, 10);
     console.log(sortedBurgers);
 }
 
@@ -102,11 +102,12 @@ function filterBurgers(burgers, minPrice, maxPrice){
     return filteredBurgers;
 }
 
-function sortBurgersByDistance(burgers, latitude, longitude, range){
+function sortBurgersByDistance(burgers, latitude, longitude, range, maxNum){
     var sortedBurgers = burgers.slice();
-    return sortedBurgers.filter((burger) => (
+    sortedBurgers = sortedBurgers.filter((burger) => (
         getDistanceFromLatLonInKm(latitude, longitude,  burger.lat, burger.lon) <= range
     ));
+    return sortedBurgers.slice(0, Math.min(maxNum, sortedBurgers.length));
 }
 
 function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
