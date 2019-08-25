@@ -1,155 +1,146 @@
 <!doctype html>
 <html lang="en" xml:lang="en">
 <head>
-    <title></title>
+  <title></title>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <meta name="author" content="Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, Black Dine">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, Black Dine">
 
-    <!-- Open Group meta tags for Facebook-->
-    <meta property="og:title" content=""/>
-    <meta property="og:type" content="website"/>
-    <meta property="og:image" content=""/>
-    <meta property="og:description" content="">
-    <meta property="og:url" content="">
-    <meta property="og:site_name" content=""/>
+  <!-- Open Group meta tags for Facebook-->
+  <meta property="og:title" content=""/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:image" content=""/>
+  <meta property="og:description" content="">
+  <meta property="og:url" content="">
+  <meta property="og:site_name" content=""/>
 
-    <!-- Twitter Meta tags -->
-    <meta name="twitter:title" content=""/>
-    <meta name="twitter:url" content=""/>
-    <meta name="twitter:card" content=""/>
-    <meta name="description" content="" />
+  <!-- Twitter Meta tags -->
+  <meta name="twitter:title" content=""/>
+  <meta name="twitter:url" content=""/>
+  <meta name="twitter:card" content=""/>
+  <meta name="description" content="" />
 
-    <!-- Bootstrap CSS -->
-<!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+  <!-- Bootstrap CSS -->
+  <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
 
-    <!-- Custom Fonts, Stylesheets and Javascript -->
-    <link rel='stylesheet' href='css/style.css'/>
-    <link rel="stylesheet" type="text/css" href="css/full-page-scroll.css">
-    <style type="text/css">
-        .section1 {
-            background-color: #7DBCD4;
-        }
+  <!-- Custom Fonts, Stylesheets and Javascript -->
+  <link rel='stylesheet' href='css/style.css'/>
+  <link rel="stylesheet" type="text/css" href="css/full-page-scroll.css">
+  <style type="text/css">
+  section {
+    background-color: #2D378C;
+    color: #F69F3A;
+  }
 
-        .section2 {
-            background-color: #98C19F;
-        }
+  section div {
+    font-family: 'Avenir', sans-serif;
+    font-style: normal;
+    text-align: center;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
 
-        .section3 {
-            background-color:  #A199E2;
-        }
+  span {
+    font-size: 4em;
+    font-style: normal;
+  }
 
-        .section4 {
-            background-color:  #CC938E;
-        }
+  .scroll {
+    display: block;
+    background: url("assets/images/arrow.png") no-repeat;
+    width: 44px;
+    height: 24px;
+    background-size: 44px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    animation-name: bounce;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+  }
 
-        .section5 {
-            background-color:  #D2C598;
-        }
+  @keyframes bounce {
+    0% { transform: translateY(0);}
+    50% { transform: translateY(-5px);}
+    100% { transform: translateY(0);}
+  }
+  </style>
+  <style type="text/css">
+  #map{ width:700px; height: 500px; }
+  </style>
+  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA"></script></head>
 
-        section div {
-            font-family: 'Avenir', sans-serif;
-            font-style: normal;
-            text-align: center;
-            position: relative;
-            top: 50%;
-            transform: translateY(-50%);
-        }
+  <body onload="loadJson()">
+    <!--<div style="margin: auto" id="map"></div>-->
 
-        span {
-            font-size: 4em;
-            font-style: normal;
-            color: #fff;
-        }
-
-        .button {
-            background-color: #F2CF66;
-            border-bottom: 5px solid #D1B358;
-            text-shadow: 0 -2px #D1B358;
-            padding: 10px 40px;
-            border-radius: 10px;
-            font-size: 25px;
-            color: #FFF;
-            text-decoration: none;
-        }
-    </style>
-    <style type="text/css">
-        #map{ width:700px; height: 500px; }
-    </style>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA"></script></head>
-
-<body onload="loadJson()">
-<!--<div style="margin: auto" id="map"></div>-->
-
-<div id="main" class="scroll-container">
-    <section class="section1">
+    <div id="main" class="scroll-container">
+      <section class="section1">
+          <img class='logo' src="assets/images/icon.svg" alt="WOAP Icon">
         <div>
-            <span class="brand">Burger Brick Road</span>
-            <p  class="brand-subtitle">This is a burger generator for Wellington on a plate. It will generate the top 10 restaurants based on your preferences. After you have selected the restaurants you want to visit you can send yourself an email from the generation.</p>
+          <span class="brand">Burger Brick Road</span>
+          <p  class="brand-subtitle">This is a burger generator for Wellington on a plate. It will generate the top 10 restaurants based on your preferences. After you have selected the restaurants you want to visit you can send yourself an email from the generation.</p>
         </div>
         <div>
-            <a href="#1" class="button">Let's Get Started!</a>
+          <a href="#1" class="scroll"></a>
         </div>
-    </section>
+      </section>
 
-    <section class="section2">
+      <section class="section2">
         <div>
-            <span class="section-title">Most I'd pay for a burger:</span>
-            <form>
-                <input type="decimal" id="priceMin">
-                <input type="decimal" id="priceMax">
-            </form>
+          <span class="section-title">Most I'd pay for a burger:</span>
+          <form>
+            <input type="decimal" id="priceMin">
+            <input type="decimal" id="priceMax">
+          </form>
         </div>
-    </section>
-    
+      </section>
 
-    <div class="section3">
 
+      <div class="section3">
         <div>
+          <h2 class="section-title">Select a location!</h2>
+          <p class="description">Select near where you want to eat by clicking on the map</p>
 
-            <span class="section-title">Select a location!</span>
-            <!--map div-->
-            <div style="margin: auto" id="map" position="absolute"></div>
+          <!--map div-->
+          <div style="margin: auto" id="map" class="map"></div>
 
-            <!--our form-->
-            <p>Chosen Location</p>
+          <!-- <form method="post">
+            <input type="text" id="lat" readonly="yes"><br>
+            <input type="text" id="lng" readonly="yes">
+          </form> -->
 
-            <form method="post">
-                <input type="text" id="lat" readonly="yes"><br>
-                <input type="text" id="lng" readonly="yes">
-            </form>
-
-            <button onclick="submitInput()">SUBMIT</button>
+          <button class="text-button" onclick="submitInput()">Generate</button>
         </div>
+      </div>
+
+      <section class="section4">
+        <div>
+          <span class="section-title">These are your burgers! YUM 🤤</span>
+          <div id="showBurgers" style="display:none;">
+            YOUR LOCATION: <br>
+            Lat: <p id="latShow"></p>
+          </div>
+        </div>
+      </section>
     </div>
-
-    <section class="section4">
-        <div>
-            <span class="section-title">These are your burgers! YUM 🤤</span>
-            <div id="showBurgers" style="display:none;">
-                YOUR LOCATION: <br>
-                Lat: <p id="latShow"></p>
-            </div>
-        </div>
-    </section>
-</div>
-<!-- All JS files -->
-<script src="js/full-page-scroll.js"></script>
-<script type="text/javascript">
+    <!-- All JS files -->
+    <script src="js/full-page-scroll.js"></script>
+    <script type="text/javascript">
     new fullScroll({
-        mainElement: 'main',
-        displayDots: true,
-        dotsPosition: 'left',
-        animateTime: 0.7,
-        animateFunction: 'ease'
+      mainElement: 'main',
+      displayDots: true,
+      dotsPosition: 'left',
+      animateTime: 0.7,
+      animateFunction: 'ease'
     });
-</script>
-<script src="js/main.js"></script>
+  </script>
+  <script src="js/main.js"></script>
 </body>
 </html>
