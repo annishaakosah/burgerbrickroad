@@ -6,6 +6,25 @@ var lowerBurgerPrice;
 var upperBurgerPrice;
 //var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
 var burgers;//all burgers
+images = [
+  'https://goodcms.s3.amazonaws.com/woap/event/woap-burger-19-190305-121648.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/IMG_2295-190306-133016.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Lulu_woap_2019-190325-072304.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Arcimboldi---Burger-190520-121341.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Burger-Wellington---Astoria-190321-083207.jpeg',
+  'https://goodcms.s3.amazonaws.com/woap/event/53671917_1349376458537388_8529644263460306944_n-190306-203805.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/B98221DA-3291-466C-B292-DB8B1D6981D4-190306-110030-190522-133004.jpeg',
+  'https://goodcms.s3.amazonaws.com/woap/event/woap-burger-190321-135032.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Burger-Welly-2019-Bin44-Bin44-Restaurant-Bar-190524-135849.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Charley-Noble----Burger-190520-134640.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/DSC_0039-190820-135521.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/burger-woap-19-190306-132232.jpeg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Hashigo-Zake--Burger-190520-143124.png',
+  'https://goodcms.s3.amazonaws.com/woap/event/Royale-Fromage---Image-190708-145617.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/Meow---Burger-190520-143919.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/NikauBurgerWOAP2019-190228-175216.jpg',
+  'https://goodcms.s3.amazonaws.com/woap/event/20190614133105_IMG_2190-190618-065208.jpg'
+];
 
 //Function called to initialize / create the map.
 //This is called when the page has loaded.
@@ -68,38 +87,77 @@ function storeBurgerPrice() {
 //google.maps.event.addDomListener(window, 'load', initMap);
 
 function submitInput() {
-    var x = document.getElementById("showBurgers");
-    if (x.style.display === "none") {
-        x.style.display = "block";
-    } else {
-        x.style.display = "none";
-    }
+
+    // var x = document.getElementById("showBurgers");
+    // if (x.style.display === "none") {
+    //     x.style.display = "block";
+    // } else {
+    //     x.style.display = "none";
+    // }
 
     storeBurgerPrice();
     console.log(currentLocation.lat() + " " + currentLocation.lng())
 
-    //document.getElementById('showBurgers').style.display = "block";
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
-    //console.log(filteredBurgers);
+    let sortedBurgers = sortBurgersByDistance(filteredBurgers, currentLocation.lat(), currentLocation.lng(), 0.5, 10);
 
+    let str = '<div class="burger-container">';
+    let i = 0;
+    sortedBurgers.forEach(function (burger) {
+        str += '<div class="burger-item">';
+            str += '<div class="column left">';
+                str += '<div class="restaurant-details">';
+                    str += '<h3 class="restaurant-name">'+ burger.Restaurant +'</h3>';
+                    str += '<h5 class="burger-details">Phone number: ' + burger.Phone + '</h5>';
+                    str += '<h5 class="burger-details">' + burger.Wheelchair + '</h5>';
+                    str += '<a class="burger-details" href="' + burger.Website +'"> Website link to WOAP</a>';
+                str += '</div>';
+
+                str += '<div class="restaurant-details">';
+                    str += '<h3 class="burger-name">' + burger.Burger + '</h3>';
+                    str += '<h5 class="burger-details">Protein Used: ' + burger["Burger Protien"] + '</h5>';
+                    str += '<h5 class="burger-details">Dietary Requirements: ' + burger["Dietary Requirements"] + '</h5>';
+                    str += '<h5 class="burger-details">Dietary Requirements: ' + burger.Fries + '</h5>';
+                    str += '<h5 class="burger-details">' + burger.Description + '</h5>';
+                    str += '<h3 class="burger-price">Price: ' + burger.Price + '</h3>';
+                    str += '<h3 class="burger-price">With beer: ' + burger["with Beer"] + '</h3>';
+                str += '</div>';
+            str += '</div>';
+
+            str += '<div class="column">';
+                str += '<img alt="burger image" src="' + images[i] + '"/>';
+            str += '</div>';
+        str += '</div>';
+        i++;
+    });
+    str += '</div>';
+    document.getElementById("results-div").innerHTML = str;
+    document.getElementById("results-div").style.display = "block";
 }
 
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
-        console.log(getDistanceFromLatLonInKm(-41.2850653, 174.7788754,  -41.1173913, 174.8928507));
     });
 
 }
 
 function filterBurgers(burgers, minPrice, maxPrice){
     var filteredBurgers = burgers.slice();
-    filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice && 
+    filteredBurgers = filteredBurgers.filter((burger) => (Number(burger.Price.substring(1)) <= maxPrice &&
         Number(burger.Price.substring(1)) >= minPrice));
     filteredBurgers.forEach((element) => {
     });
 
-    return filterBurgers;
+    return filteredBurgers;
+}
+
+function sortBurgersByDistance(burgers, latitude, longitude, range, maxNum){
+    var sortedBurgers = burgers.slice();
+    sortedBurgers = sortedBurgers.filter((burger) => (
+        getDistanceFromLatLonInKm(latitude, longitude,  burger.lat, burger.lon) <= range
+    ));
+    return sortedBurgers.slice(0, Math.min(maxNum, sortedBurgers.length));
 }
 
 function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
@@ -119,4 +177,4 @@ function deg2rad(deg) {
     return deg * (Math.PI/180)
 }
 
-window.onload = function () { initMap() };
+window.onload = function () { initMap(); loadJson(); };

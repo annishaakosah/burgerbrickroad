@@ -122,27 +122,72 @@ body {
 }
 
 #showBurgers {
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   border: solid 1px #000000;
-  margin-left: 25%;
-  margin-right: 25%;
+  background-color: red;
+  /*top: auto;*/
+  /*transform: none;*/
+  /*margin-left: 25%;*/
+  /*margin-right: 25%;*/
 }
 
+
 .text-button {
-  border: 0;
-  background-color: transparent;
-  color: #F69F3A;
-  font-size: 30px;
-  font-family: Avenir-Black, sans-serif;
-  padding: 8px 16px;
-  transition: all .2s ease-in-out;
+border: 0;
+background-color: transparent;
+color: #F69F3A;
+font-size: 30px;
+font-family: Avenir-Black, sans-serif;
+padding: 8px 16px;
+transition: all .2s ease-in-out;
 
 }
 
 .text-button:hover { transform: scale(1.1); }
 
 .description {
+font-size: 15px;
+color: white;
+margin-bottom: 36px;
+}
+
+.results-div {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:100%;
+  background-color: #2d378c;
+  z-index: 100;
+  overflow: scroll;
+}
+
+.burger-item {
+  display: flex;
+  background-color: #4e59ba;
+  margin: 5% 10% 20px;
+}
+
+.column img {
+  max-width: 300px;
+}
+
+.left {
+  flex-basis: 66%;
+}
+
+.restaurant-name .burger-details .burger-name .burger-price {
+  font-family: Avenir, sans-serif;
+  color: #f69f3a;
   font-size: 15px;
-  color: white;
-  margin-bottom: 36px;
+}
+
+.restaurant-name .burger-name .burger-price {
+  color: #fee6c9;
+  font-size: 30px;
+}
+
+.burger-price {
+  font-size: 27px;
 }
