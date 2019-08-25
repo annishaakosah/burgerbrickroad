@@ -79,10 +79,14 @@
             text-decoration: none;
         }
     </style>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
-</head>
+    <style type="text/css">
+        #map{ width:700px; height: 500px; }
+    </style>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA"></script></head>
 
 <body onload="loadJson()">
+<!--<div style="margin: auto" id="map"></div>-->
+
 <div id="main" class="scroll-container">
     <section class="section1">
         <div>
@@ -104,11 +108,14 @@
         </div>
     </section>
 
+    <div style="margin: auto" id="map"></div>
+
     <section class="section3">
+
         <div>
+
             <span class="section-title">Select a location!</span>
             <!--map div-->
-            <div style="margin: auto" id="map"></div>
             <!--our form-->
             <p>Chosen Location</p>
 
@@ -116,6 +123,7 @@
                 <input type="text" id="lat" readonly="yes"><br>
                 <input type="text" id="lng" readonly="yes">
             </form>
+
             <button onclick="submitInput()">SUBMIT</button>
         </div>
     </section>
