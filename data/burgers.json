@@ -15,7 +15,9 @@
     "Phone": "04-499 2999",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/432/Apache#burger-1635"
+    "Website": "https://www.visawoap.com/venue/432/Apache#burger-1635",
+    "lat": -41.293788,
+    "lon": 174.7835811
   },
   {
     "Restaurant": "Arborist Rooftop Bar",
@@ -33,7 +35,9 @@
     "Phone": "04-931 6161",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/676/Arborist-Rooftop-Bar-and-Eatery#burger-1714"
+    "Website": "https://www.visawoap.com/venue/676/Arborist-Rooftop-Bar-and-Eatery#burger-1714",
+    "lat": -41.279664,
+    "lon": 174.774682
   },
   {
     "Restaurant": "Arcimboldi",
@@ -51,7 +55,9 @@
     "Phone": "04-388 5566",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/758/Arcimboldi#burger-1851"
+    "Website": "https://www.visawoap.com/venue/758/Arcimboldi#burger-1851",
+    "lat": -41.2892497,
+    "lon": 174.7756269
   },
   {
     "Restaurant": "Astoria",
@@ -69,7 +75,9 @@
     "Phone": "04-473 8500",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/707/Astoria#burger-1781"
+    "Website": "https://www.visawoap.com/venue/707/Astoria#burger-1781",
+    "lat": -41.3353524,
+    "lon": 174.7734795
   },
   {
     "Restaurant": "Bellamy's by Logan Brown",
@@ -87,7 +95,9 @@
     "Phone": "04-817 9678",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/670/Bellamys-by-Logan-Brown#burger-1378"
+    "Website": "https://www.visawoap.com/venue/670/Bellamys-by-Logan-Brown#burger-1378",
+    "lat": 40.7377702,
+    "lon": -73.9878767
   },
   {
     "Restaurant": "Bellbird Eatery",
@@ -105,7 +115,9 @@
     "Phone": "04-260 0161",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/507/Bellbird-Eatery#burger-1682"
+    "Website": "https://www.visawoap.com/venue/507/Bellbird-Eatery#burger-1682",
+    "lat": -41.209799,
+    "lon": 174.9339095
   },
   {
     "Restaurant": "Boneface Brewing Company",
@@ -123,7 +135,9 @@
     "Phone": "04-529 7042",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/729/Boneface-Brewing-Co.#burger-1639"
+    "Website": "https://www.visawoap.com/venue/729/Boneface-Brewing-Co.#burger-1639",
+    "lat": -41.2897305,
+    "lon": 174.7759408
   },
   {
     "Restaurant": "The Borough",
@@ -141,7 +155,9 @@
     "Phone": "04-232 7308",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/440/The-Borough#burger-1736"
+    "Website": "https://www.visawoap.com/venue/440/The-Borough#burger-1736",
+    "lat": -41.3153035,
+    "lon": 174.8146332
   },
   {
     "Restaurant": "Boulcott Street Bistro",
@@ -159,7 +175,9 @@
     "Phone": "04-499 4199",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/201/Boulcott-Street-Bistro#burger-1688"
+    "Website": "https://www.visawoap.com/venue/201/Boulcott-Street-Bistro#burger-1688",
+    "lat": -41.2937767,
+    "lon": 174.7819149
   },
   {
     "Restaurant": "The Bresolin",
@@ -177,7 +195,9 @@
     "Phone": "04-801 5152",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/327/The-Bresolin#burger-1454"
+    "Website": "https://www.visawoap.com/venue/327/The-Bresolin#burger-1454",
+    "lat": -41.2826621,
+    "lon": 174.7775441
   },
   {
     "Restaurant": "Brew'd Boulcott",
@@ -195,7 +215,9 @@
     "Phone": "04-901 2570",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/394/Brew'd-Boulcott#burger-1750"
+    "Website": "https://www.visawoap.com/venue/394/Brew'd-Boulcott#burger-1750",
+    "lat": -41.2844455,
+    "lon": 174.7757253
   },
   {
     "Restaurant": "Burger Liquor",
@@ -213,7 +235,9 @@
     "Phone": "04-385 1104",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/497/Burger-Liquor#burger-1703"
+    "Website": "https://www.visawoap.com/venue/497/Burger-Liquor#burger-1703",
+    "lat": -41.3283089,
+    "lon": 174.8040732
   },
   {
     "Restaurant": "Cafe Polo",
@@ -231,7 +255,9 @@
     "Phone": "04-380 7273",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/427/Cafe-Polo#burger-1738"
+    "Website": "https://www.visawoap.com/venue/427/Cafe-Polo#burger-1738",
+    "lat": -41.2837712,
+    "lon": 174.776907
   },
   {
     "Restaurant": "The Cambridge Hotel",
@@ -249,7 +275,9 @@
     "Phone": "04-385 8829",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/383/The-Cambridge-Hotel#burger-1681"
+    "Website": "https://www.visawoap.com/venue/383/The-Cambridge-Hotel#burger-1681",
+    "lat": -41.292056,
+    "lon": 174.78124
   },
   {
     "Restaurant": "Chocolate Frog Cafe",
@@ -267,7 +295,9 @@
     "Phone": "04-388 8233",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/649/Chocolate-Frog-Cafe#burger-1620"
+    "Website": "https://www.visawoap.com/venue/649/Chocolate-Frog-Cafe#burger-1620",
+    "lat": -41.3046742,
+    "lon": 174.7940493
   },
   {
     "Restaurant": "Chow",
@@ -285,7 +315,9 @@
     "Phone": "04-382 8585",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/153/Chow#burger-1788"
+    "Website": "https://www.visawoap.com/venue/153/Chow#burger-1788",
+    "lat": -41.1302664,
+    "lon": 175.0684825
   },
   {
     "Restaurant": "Cicio Cacio Osteria",
@@ -303,7 +335,9 @@
     "Phone": "04-380 1100",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/264/Cicio-Cacio-Osteria#burger-1763"
+    "Website": "https://www.visawoap.com/venue/264/Cicio-Cacio-Osteria#burger-1763",
+    "lat": -41.295139,
+    "lon": 174.782877
   },
   {
     "Restaurant": "Coene's",
@@ -321,7 +355,9 @@
     "Phone": "04-385 7124",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/398/Coene's-Bar-and-Eatery#burger-1665"
+    "Website": "https://www.visawoap.com/venue/398/Coene's-Bar-and-Eatery#burger-1665",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "Comes & Goes",
@@ -339,7 +375,9 @@
     "Phone": "04-569 3400",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/469/Comes-and-Goes#burger-1869"
+    "Website": "https://www.visawoap.com/venue/469/Comes-and-Goes#burger-1869",
+    "lat": -41.2916334,
+    "lon": 174.7794988
   },
   {
     "Restaurant": "The Crooked Elm",
@@ -357,7 +395,9 @@
     "Phone": "04-566 0160",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/642/The-Crooked-Elm#burger-1359"
+    "Website": "https://www.visawoap.com/venue/642/The-Crooked-Elm#burger-1359",
+    "lat": -41.2918249,
+    "lon": 174.7779553
   },
   {
     "Restaurant": "D4 on Allen",
@@ -375,7 +415,9 @@
     "Phone": "04-282 1316",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/712/D4-on-Allen#burger-1775"
+    "Website": "https://www.visawoap.com/venue/712/D4-on-Allen#burger-1775",
+    "lat": -41.2907081,
+    "lon": 174.7737182
   },
   {
     "Restaurant": "David Jones",
@@ -393,7 +435,9 @@
     "Phone": "04-912 0700",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/620/David-Jones-Wellington#burger-1783"
+    "Website": "https://www.visawoap.com/venue/620/David-Jones-Wellington#burger-1783",
+    "lat": -41.2119064,
+    "lon": 174.9043021
   },
   {
     "Restaurant": "Dillinger's",
@@ -411,7 +455,9 @@
     "Phone": "04-555 0415",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/85/Dillinger's#burger-1646"
+    "Website": "https://www.visawoap.com/venue/85/Dillinger's#burger-1646",
+    "lat": -41.2259061,
+    "lon": 174.8810383
   },
   {
     "Restaurant": "Dockside",
@@ -429,7 +475,9 @@
     "Phone": "04-499 9900",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/185/Dockside-Restaurant-and-Bar#burger-1729"
+    "Website": "https://www.visawoap.com/venue/185/Dockside-Restaurant-and-Bar#burger-1729",
+    "lat": 39.1400974,
+    "lon": -94.5799346
   },
   {
     "Restaurant": "Egmont Street Eatery",
@@ -447,7 +495,9 @@
     "Phone": "04-801 6891",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/121/Egmont-St.-Eatery#burger-1617"
+    "Website": "https://www.visawoap.com/venue/121/Egmont-St.-Eatery#burger-1617",
+    "lat": -41.2108922,
+    "lon": 174.9014392
   },
   {
     "Restaurant": "Field & Green",
@@ -465,7 +515,9 @@
     "Phone": "04-384 4992",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/310/Field-and-Green#burger-1195"
+    "Website": "https://www.visawoap.com/venue/310/Field-and-Green#burger-1195",
+    "lat": -41.3227982,
+    "lon": 174.8306091
   },
   {
     "Restaurant": "Flamingo Joe's",
@@ -483,7 +535,9 @@
     "Phone": "04-471 1303",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/653/Flamingo-Joes#burger-1734"
+    "Website": "https://www.visawoap.com/venue/653/Flamingo-Joes#burger-1734",
+    "lat": -41.2862221,
+    "lon": 174.7739226
   },
   {
     "Restaurant": "Fork and Brewer",
@@ -501,7 +555,9 @@
     "Phone": "04-472 0033",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/748/Fork-and-Brewer#burger-1856"
+    "Website": "https://www.visawoap.com/venue/748/Fork-and-Brewer#burger-1856",
+    "lat": -41.296155,
+    "lon": 174.780353
   },
   {
     "Restaurant": "Fortune Favours",
@@ -519,7 +575,9 @@
     "Phone": "04-595 4092",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/283/Fortune-Favours#burger-1672"
+    "Website": "https://www.visawoap.com/venue/283/Fortune-Favours#burger-1672",
+    "lat": -41.2934426,
+    "lon": 174.7805498
   },
   {
     "Restaurant": "Foxglove",
@@ -537,7 +595,9 @@
     "Phone": "04-460 9410",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/468/Foxglove-Bar-and-Kitchen#burger-1725"
+    "Website": "https://www.visawoap.com/venue/468/Foxglove-Bar-and-Kitchen#burger-1725",
+    "lat": 37.0370476,
+    "lon": -95.632596
   },
   {
     "Restaurant": "The Gardens of Alicetown",
@@ -555,7 +615,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/402/The-Gardens-of-Alicetown#burger-1748"
+    "Website": "https://www.visawoap.com/venue/402/The-Gardens-of-Alicetown#burger-1748",
+    "lat": -41.2927204,
+    "lon": 174.7777947
   },
   {
     "Restaurant": "Glass",
@@ -573,7 +635,9 @@
     "Phone": "Unknown",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/639/glass-wine-bar-and-bistro#burger-1883"
+    "Website": "https://www.visawoap.com/venue/639/glass-wine-bar-and-bistro#burger-1883",
+    "lat": -41.2784263,
+    "lon": 174.769562
   },
   {
     "Restaurant": "Good Boy",
@@ -591,7 +655,9 @@
     "Phone": "027 569 2622",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/735/Good-Boy#burger-1664"
+    "Website": "https://www.visawoap.com/venue/735/Good-Boy#burger-1664",
+    "lat": -41.2814252,
+    "lon": 174.7797233
   },
   {
     "Restaurant": "Grill Meats Beer",
@@ -609,7 +675,9 @@
     "Phone": "04-801 8787",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/18/Grill-Meats-Beer#burger-1614"
+    "Website": "https://www.visawoap.com/venue/18/Grill-Meats-Beer#burger-1614",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "Hashigo Zake",
@@ -627,7 +695,9 @@
     "Phone": "04-390 7300",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/754/Hashigo-Zake#burger-1810"
+    "Website": "https://www.visawoap.com/venue/754/Hashigo-Zake#burger-1810",
+    "lat": -41.296663,
+    "lon": 174.775583
   },
   {
     "Restaurant": "Heyday Beer Co",
@@ -645,7 +715,9 @@
     "Phone": "020 443 9329",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/382/Heyday-Beer-Co#burger-1837"
+    "Website": "https://www.visawoap.com/venue/382/Heyday-Beer-Co#burger-1837",
+    "lat": -41.312778,
+    "lon": 174.822632
   },
   {
     "Restaurant": "Hotel Bristol",
@@ -663,7 +735,9 @@
     "Phone": "04-385 1147",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/164/The-Hotel-Bristol#burger-1847"
+    "Website": "https://www.visawoap.com/venue/164/The-Hotel-Bristol#burger-1847",
+    "lat": -41.2243021,
+    "lon": 174.8675013
   },
   {
     "Restaurant": "The Hudson",
@@ -681,7 +755,9 @@
     "Phone": "04-471 2266",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/650/The-Hudson-On-Chews#burger-1821"
+    "Website": "https://www.visawoap.com/venue/650/The-Hudson-On-Chews#burger-1821",
+    "lat": -41.2930225,
+    "lon": 174.7821491
   },
   {
     "Restaurant": "Hummingbird",
@@ -699,7 +775,9 @@
     "Phone": "04-801 6336",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/42/Hummingbird-Eatery-and-Bar#burger-1450"
+    "Website": "https://www.visawoap.com/venue/42/Hummingbird-Eatery-and-Bar#burger-1450",
+    "lat": -41.2846247,
+    "lon": 174.7794884
   },
   {
     "Restaurant": "The Inn Keeper of Johnsonville",
@@ -717,7 +795,9 @@
     "Phone": "04-478 9753",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/744/The-Innkeeper#burger-1746"
+    "Website": "https://www.visawoap.com/venue/744/The-Innkeeper#burger-1746",
+    "lat": -41.2961785,
+    "lon": 174.7742578
   },
   {
     "Restaurant": "Jackson Street Burger Co.",
@@ -735,7 +815,9 @@
     "Phone": "04-650 1202",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/755/Jackson-Street-Burger-Co#burger-1822"
+    "Website": "https://www.visawoap.com/venue/755/Jackson-Street-Burger-Co#burger-1822",
+    "lat": -40.8942594,
+    "lon": 174.9803083
   },
   {
     "Restaurant": "Jardin Grill",
@@ -753,7 +835,9 @@
     "Phone": "04-472 2910",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/704/Jardin-Grill#burger-1885"
+    "Website": "https://www.visawoap.com/venue/704/Jardin-Grill#burger-1885",
+    "lat": -40.936327,
+    "lon": 174.977655
   },
   {
     "Restaurant": "Kelburn Village Pub",
@@ -771,7 +855,9 @@
     "Phone": "04-475 8380",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/332/Kelburn-Village-Pub#burger-1638"
+    "Website": "https://www.visawoap.com/venue/332/Kelburn-Village-Pub#burger-1638",
+    "lat": -41.2963026,
+    "lon": 174.7792856
   },
   {
     "Restaurant": "L'affare",
@@ -789,7 +875,9 @@
     "Phone": "04-385 9748",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/640/L'affare#burger-1769"
+    "Website": "https://www.visawoap.com/venue/640/L'affare#burger-1769",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "La Bella Italia",
@@ -807,7 +895,9 @@
     "Phone": "04-566 9303",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/199/La-Bella-Italia#burger-1480"
+    "Website": "https://www.visawoap.com/venue/199/La-Bella-Italia#burger-1480",
+    "lat": -41.2845802,
+    "lon": 174.7746511
   },
   {
     "Restaurant": "The Lanes",
@@ -825,7 +915,9 @@
     "Phone": "04-801 7036",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/725/Lanes-Bar-and-Bowling#burger-1621"
+    "Website": "https://www.visawoap.com/venue/725/Lanes-Bar-and-Bowling#burger-1621",
+    "lat": -41.293877,
+    "lon": 174.7811351
   },
   {
     "Restaurant": "Laundry",
@@ -843,7 +935,9 @@
     "Phone": "04-384 4280",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/762/Laundry#burger-1898"
+    "Website": "https://www.visawoap.com/venue/762/Laundry#burger-1898",
+    "lat": -41.292976,
+    "lon": 174.7831196
   },
   {
     "Restaurant": "Leroy's",
@@ -861,7 +955,9 @@
     "Phone": "04-472 6886",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/539/Leroy's-Bar#burger-1824"
+    "Website": "https://www.visawoap.com/venue/539/Leroy's-Bar#burger-1824",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "Little Beer Quarter",
@@ -879,7 +975,9 @@
     "Phone": "04-803 3304",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/430/Little-Beer-Quarter#burger-1654"
+    "Website": "https://www.visawoap.com/venue/430/Little-Beer-Quarter#burger-1654",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "Lulu Bar",
@@ -897,7 +995,9 @@
     "Phone": "04-801 8867",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/404/Lulu#burger-1776"
+    "Website": "https://www.visawoap.com/venue/404/Lulu#burger-1776",
+    "lat": -41.3160821,
+    "lon": 174.8168452
   },
   {
     "Restaurant": "Mac's Brewbar",
@@ -915,7 +1015,9 @@
     "Phone": "04-595 4288",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/410/Mac's-Brewbar#burger-1767"
+    "Website": "https://www.visawoap.com/venue/410/Mac's-Brewbar#burger-1767",
+    "lat": -41.314109,
+    "lon": 174.780073
   },
   {
     "Restaurant": "Machete",
@@ -933,7 +1035,9 @@
     "Phone": "022 643 2234",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/615/Machete-Coffee-and-Tacos#burger-1213"
+    "Website": "https://www.visawoap.com/venue/615/Machete-Coffee-and-Tacos#burger-1213",
+    "lat": -41.2240918,
+    "lon": 174.8748266
   },
   {
     "Restaurant": "Mr Go's",
@@ -951,7 +1055,9 @@
     "Phone": "04-384 3488",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/542/Mr-Go's#burger-1220"
+    "Website": "https://www.visawoap.com/venue/542/Mr-Go's#burger-1220",
+    "lat": -41.208371,
+    "lon": 175.455619
   },
   {
     "Restaurant": "Mr TK",
@@ -969,7 +1075,9 @@
     "Phone": "04-801 8881",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/643/Mr-TK-Restaurant#burger-1634"
+    "Website": "https://www.visawoap.com/venue/643/Mr-TK-Restaurant#burger-1634",
+    "lat": -41.2944333,
+    "lon": 174.774936
   },
   {
     "Restaurant": "Munchen",
@@ -987,7 +1095,9 @@
     "Phone": "04-473 7244",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/439/Munchen#burger-1820"
+    "Website": "https://www.visawoap.com/venue/439/Munchen#burger-1820",
+    "lat": -41.2464205,
+    "lon": 174.7911759
   },
   {
     "Restaurant": "Nam D",
@@ -1005,7 +1115,9 @@
     "Phone": "Unknown",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/604/NAM-D-Street-food#burger-1850"
+    "Website": "https://www.visawoap.com/venue/604/NAM-D-Street-food#burger-1850",
+    "lat": -41.281171,
+    "lon": 174.775286
   },
   {
     "Restaurant": "The Old Bailey",
@@ -1023,7 +1135,9 @@
     "Phone": "04-473 2548",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/478/The-Old-Bailey#burger-1796"
+    "Website": "https://www.visawoap.com/venue/478/The-Old-Bailey#burger-1796",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "Ombra",
@@ -1041,7 +1155,9 @@
     "Phone": "04-385 3229",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/519/Ombra#burger-1221"
+    "Website": "https://www.visawoap.com/venue/519/Ombra#burger-1221",
+    "lat": -41.2932273,
+    "lon": 174.7834207
   },
   {
     "Restaurant": "One80°",
@@ -1059,7 +1175,9 @@
     "Phone": "04-385 0279",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/276/One80-Restaurant#burger-1786"
+    "Website": "https://www.visawoap.com/venue/276/One80-Restaurant#burger-1786",
+    "lat": -41.2750332,
+    "lon": 174.7796704
   },
   {
     "Restaurant": "Panhead Custom Ales",
@@ -1077,7 +1195,9 @@
     "Phone": "04-528 2739",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/463/Panhead-Custom-Ales#burger-1498"
+    "Website": "https://www.visawoap.com/venue/463/Panhead-Custom-Ales#burger-1498",
+    "lat": -41.2935625,
+    "lon": 174.7822626
   },
   {
     "Restaurant": "Park Kitchen",
@@ -1095,7 +1215,9 @@
     "Phone": "04-388 3030",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/489/Park-Kitchen#burger-1818"
+    "Website": "https://www.visawoap.com/venue/489/Park-Kitchen#burger-1818",
+    "lat": -41.2253234,
+    "lon": 174.87801
   },
   {
     "Restaurant": "Pickle & Pie",
@@ -1113,7 +1235,9 @@
     "Phone": "04-979 6284",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/238/Pickle-and-Pie#burger-1475"
+    "Website": "https://www.visawoap.com/venue/238/Pickle-and-Pie#burger-1475",
+    "lat": -41.313158,
+    "lon": 174.779779
   },
   {
     "Restaurant": "The Pickle Jar",
@@ -1131,7 +1255,9 @@
     "Phone": "04-476 3036",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/722/The-Pickle-Jar#burger-1607"
+    "Website": "https://www.visawoap.com/venue/722/The-Pickle-Jar#burger-1607",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "Pico",
@@ -1149,7 +1275,9 @@
     "Phone": "04-385 6650",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/683/Pico#burger-1862"
+    "Website": "https://www.visawoap.com/venue/683/Pico#burger-1862",
+    "lat": -41.2924091,
+    "lon": 174.774974
   },
   {
     "Restaurant": "Portlander",
@@ -1167,7 +1295,9 @@
     "Phone": "04-498 3762",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/107/Portlander#burger-1857"
+    "Website": "https://www.visawoap.com/venue/107/Portlander#burger-1857",
+    "lat": -41.2783516,
+    "lon": 174.7782307
   },
   {
     "Restaurant": "Raumati Social Club",
@@ -1185,7 +1315,9 @@
     "Phone": "04-299 1658",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/747/Raumati-Social-Club#burger-1751"
+    "Website": "https://www.visawoap.com/venue/747/Raumati-Social-Club#burger-1751",
+    "lat": -41.2936975,
+    "lon": 174.7786946
   },
   {
     "Restaurant": "Red Mount",
@@ -1203,7 +1335,9 @@
     "Phone": "04-805 0045",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/108/Red-Mount#burger-1903"
+    "Website": "https://www.visawoap.com/venue/108/Red-Mount#burger-1903",
+    "lat": -41.2272973,
+    "lon": 174.8842888
   },
   {
     "Restaurant": "Revive Espresso",
@@ -1221,7 +1355,9 @@
     "Phone": "04-568 5300",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/681/Revive-Espresso#burger-1875"
+    "Website": "https://www.visawoap.com/venue/681/Revive-Espresso#burger-1875",
+    "lat": -41.29081,
+    "lon": 174.773945
   },
   {
     "Restaurant": "Roadhouse Cafe and Bar",
@@ -1239,7 +1375,9 @@
     "Phone": "04-566 6043",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/727/Roadhouse-Bar-and-Grill#burger-1625"
+    "Website": "https://www.visawoap.com/venue/727/Roadhouse-Bar-and-Grill#burger-1625",
+    "lat": -41.292395,
+    "lon": 174.776304
   },
   {
     "Restaurant": "Rock Yard Restaurant",
@@ -1257,7 +1395,9 @@
     "Phone": "04-381 3930",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/170/Rock-Yard-Restaurant#burger-1888"
+    "Website": "https://www.visawoap.com/venue/170/Rock-Yard-Restaurant#burger-1888",
+    "lat": 33.766697,
+    "lon": -118.184658
   },
   {
     "Restaurant": "Rogue & Vagabond",
@@ -1275,7 +1415,9 @@
     "Phone": "04-381 2321",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/379/Rogue-and-Vagabond#burger-1525"
+    "Website": "https://www.visawoap.com/venue/379/Rogue-and-Vagabond#burger-1525",
+    "lat": -41.2841658,
+    "lon": 174.737179
   },
   {
     "Restaurant": "Rogue Burger",
@@ -1293,7 +1435,9 @@
     "Phone": "04-260 5005",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/767/Rogue-Burger#burger-1232"
+    "Website": "https://www.visawoap.com/venue/767/Rogue-Burger#burger-1232",
+    "lat": -41.313111,
+    "lon": 174.779402
   },
   {
     "Restaurant": "Salty Pidgin",
@@ -1311,7 +1455,9 @@
     "Phone": "04-385 9137",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/228/Salty-Pidgin#burger-1595"
+    "Website": "https://www.visawoap.com/venue/228/Salty-Pidgin#burger-1595",
+    "lat": -41.2937767,
+    "lon": 174.7819149
   },
   {
     "Restaurant": "Sojourn Cafe",
@@ -1329,7 +1475,9 @@
     "Phone": "04-499 9500",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/321/Sojourn-Cafe-and-Bar#burger-1723"
+    "Website": "https://www.visawoap.com/venue/321/Sojourn-Cafe-and-Bar#burger-1723",
+    "lat": -41.2972422,
+    "lon": 174.7743272
   },
   {
     "Restaurant": "Southern Cross",
@@ -1347,7 +1495,9 @@
     "Phone": "04-384 9085",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/36/Southern-Cross-Garden-Bar-Restaurant#burger-1216"
+    "Website": "https://www.visawoap.com/venue/36/Southern-Cross-Garden-Bar-Restaurant#burger-1216",
+    "lat": -41.2814542,
+    "lon": 174.7772627
   },
   {
     "Restaurant": "Spruce Goose",
@@ -1365,7 +1515,9 @@
     "Phone": "04-387 2277",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/656/Spruce-Goose#burger-1286"
+    "Website": "https://www.visawoap.com/venue/656/Spruce-Goose#burger-1286",
+    "lat": -41.3289223,
+    "lon": 174.7955063
   },
   {
     "Restaurant": "Sweet Mother's Kitchen",
@@ -1383,7 +1535,9 @@
     "Phone": "04-385 4444",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/371/Sweet-Mother's-Kitchen#burger-1203"
+    "Website": "https://www.visawoap.com/venue/371/Sweet-Mother's-Kitchen#burger-1203",
+    "lat": -41.3271748,
+    "lon": 174.7998029
   },
   {
     "Restaurant": "The Salt and Wood Collective",
@@ -1401,7 +1555,9 @@
     "Phone": "04-891 1281",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/407/The-Salt-and-Wood-Collective#burger-1711"
+    "Website": "https://www.visawoap.com/venue/407/The-Salt-and-Wood-Collective#burger-1711",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "The Speight's Ale House",
@@ -1419,7 +1575,9 @@
     "Phone": "04-586 6266",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/733/The-Speight's-Ale-House-Petone#burger-1653"
+    "Website": "https://www.visawoap.com/venue/733/The-Speight's-Ale-House-Petone#burger-1653",
+    "lat": -41.295404,
+    "lon": 174.7746879
   },
   {
     "Restaurant": "The Tasting Room",
@@ -1437,7 +1595,9 @@
     "Phone": "04-384 1159",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/43/The-Tasting-Room#burger-1449"
+    "Website": "https://www.visawoap.com/venue/43/The-Tasting-Room#burger-1449",
+    "lat": -41.28248,
+    "lon": 174.774962
   },
   {
     "Restaurant": "Thistle Inn",
@@ -1455,7 +1615,9 @@
     "Phone": "04-499 5980",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/314/Thistle-Inn#burger-1282"
+    "Website": "https://www.visawoap.com/venue/314/Thistle-Inn#burger-1282",
+    "lat": -41.294078,
+    "lon": 174.7777293
   },
   {
     "Restaurant": "Tinakori Bistro",
@@ -1473,7 +1635,9 @@
     "Phone": "04-499 0567",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/456/Tinakori-Bistro#burger-1753"
+    "Website": "https://www.visawoap.com/venue/456/Tinakori-Bistro#burger-1753",
+    "lat": -41.2251005,
+    "lon": 174.877951
   },
   {
     "Restaurant": "Union Square Bistro & Bar",
@@ -1491,7 +1655,9 @@
     "Phone": "06-306 8350",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/684/Union-Square#burger-1867"
+    "Website": "https://www.visawoap.com/venue/684/Union-Square#burger-1867",
+    "lat": -41.3128609,
+    "lon": 174.7797875
   },
   {
     "Restaurant": "Viva México Petone",
@@ -1509,7 +1675,9 @@
     "Phone": "04-260 1155",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/368/Viva-Mexico-Petone#burger-1890"
+    "Website": "https://www.visawoap.com/venue/368/Viva-Mexico-Petone#burger-1890",
+    "lat": -41.2890568,
+    "lon": 174.7792885
   },
   {
     "Restaurant": "Whistling Sister Beer Co",
@@ -1527,7 +1695,9 @@
     "Phone": "04-381 3208",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/665/Whistling-Sisters#burger-1383"
+    "Website": "https://www.visawoap.com/venue/665/Whistling-Sisters#burger-1383",
+    "lat": -41.2931147,
+    "lon": 174.7786926
   },
   {
     "Restaurant": "Whitby Co-Op",
@@ -1545,7 +1715,9 @@
     "Phone": "04-234 1580",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/405/Whitby-CO-OP-Bar-and-Kitchen#burger-1805"
+    "Website": "https://www.visawoap.com/venue/405/Whitby-CO-OP-Bar-and-Kitchen#burger-1805",
+    "lat": -41.2892822,
+    "lon": 174.7761912
   },
   {
     "Restaurant": "Wholesale Boot Company",
@@ -1563,7 +1735,9 @@
     "Phone": "04-499 9379",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/541/Wholesale-boot-company#burger-1798"
+    "Website": "https://www.visawoap.com/venue/541/Wholesale-boot-company#burger-1798",
+    "lat": -41.2926147,
+    "lon": 174.7795883
   },
   {
     "Restaurant": "Wildfire",
@@ -1581,7 +1755,9 @@
     "Phone": "04-381 3434",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/669/Wildfire-Churrascaria#burger-1709"
+    "Website": "https://www.visawoap.com/venue/669/Wildfire-Churrascaria#burger-1709",
+    "lat": -41.28365,
+    "lon": 174.778724
   },
   {
     "Restaurant": "The 7 Bar",
@@ -1599,7 +1775,9 @@
     "Phone": "04-527 7870",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/734/The-7-Bar#burger-1661"
+    "Website": "https://www.visawoap.com/venue/734/The-7-Bar#burger-1661",
+    "lat": -41.3056534,
+    "lon": 174.7630849
   },
   {
     "Restaurant": "Bangalore Polo Club",
@@ -1617,7 +1795,9 @@
     "Phone": "04-384 6416",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/749/Bangalore-Polo-Club#burger-1764"
+    "Website": "https://www.visawoap.com/venue/749/Bangalore-Polo-Club#burger-1764",
+    "lat": -41.290718,
+    "lon": 174.7750086
   },
   {
     "Restaurant": "Bao Boy",
@@ -1635,7 +1815,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/526/Bao-Boy#burger-1716"
+    "Website": "https://www.visawoap.com/venue/526/Bao-Boy#burger-1716",
+    "lat": -41.2032201,
+    "lon": 174.9238738
   },
   {
     "Restaurant": "Beach Babylon",
@@ -1653,7 +1835,9 @@
     "Phone": "04-801 7717",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/138/Beach-Babylon#burger-1550"
+    "Website": "https://www.visawoap.com/venue/138/Beach-Babylon#burger-1550",
+    "lat": -41.2247616,
+    "lon": 174.8064779
   },
   {
     "Restaurant": "Beach Road Deli",
@@ -1671,7 +1855,9 @@
     "Phone": "04-902 9029",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/525/Beach-Road-Deli#burger-1848"
+    "Website": "https://www.visawoap.com/venue/525/Beach-Road-Deli#burger-1848",
+    "lat": -41.293009,
+    "lon": 174.775926
   },
   {
     "Restaurant": "Bin44",
@@ -1689,7 +1875,9 @@
     "Phone": "04-499 4450",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/685/Bin44-Restaurant-and-Bar#burger-1724"
+    "Website": "https://www.visawoap.com/venue/685/Bin44-Restaurant-and-Bar#burger-1724",
+    "lat": -41.27702,
+    "lon": 174.771675
   },
   {
     "Restaurant": "Black Doris",
@@ -1707,7 +1895,9 @@
     "Phone": "04-471 2766",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/687/Black-Doris#burger-1908"
+    "Website": "https://www.visawoap.com/venue/687/Black-Doris#burger-1908",
+    "lat": -41.3066961,
+    "lon": 174.8257898
   },
   {
     "Restaurant": "Charley Noble",
@@ -1725,7 +1915,9 @@
     "Phone": "04-282 0205",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/384/Charley-Noble-Eatery-and-Bar#burger-1687"
+    "Website": "https://www.visawoap.com/venue/384/Charley-Noble-Eatery-and-Bar#burger-1687",
+    "lat": -41.2942833,
+    "lon": 174.7849877
   },
   {
     "Restaurant": "The Churchill",
@@ -1743,7 +1935,9 @@
     "Phone": "04-472 3366",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/397/The-Churchill#burger-1728"
+    "Website": "https://www.visawoap.com/venue/397/The-Churchill#burger-1728",
+    "lat": -41.1708078,
+    "lon": 174.8250648
   },
   {
     "Restaurant": "The Clareville Bakery",
@@ -1761,7 +1955,9 @@
     "Phone": "06-379 5333",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/443/The-Clareville-Bakery#burger-1727"
+    "Website": "https://www.visawoap.com/venue/443/The-Clareville-Bakery#burger-1727",
+    "lat": 36.149524,
+    "lon": -95.880826
   },
   {
     "Restaurant": "Concrete Bar",
@@ -1779,7 +1975,9 @@
     "Phone": "04-473 7427",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/384/Charley-Noble-Eatery-and-Bar#burger-1687"
+    "Website": "https://www.visawoap.com/venue/384/Charley-Noble-Eatery-and-Bar#burger-1687",
+    "lat": -41.2784452,
+    "lon": 174.7766105
   },
   {
     "Restaurant": "Dragonfly",
@@ -1797,7 +1995,9 @@
     "Phone": "04-803 3995",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/331/Dragonfly#burger-1745"
+    "Website": "https://www.visawoap.com/venue/331/Dragonfly#burger-1745",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "Dutchy's @ Waitoa Social Club",
@@ -1815,7 +2015,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/737/Dutchy's-Burger-Joint#burger-1663"
+    "Website": "https://www.visawoap.com/venue/737/Dutchy's-Burger-Joint#burger-1663",
+    "lat": -41.295561,
+    "lon": 174.774516
   },
   {
     "Restaurant": "Ekim Burgers",
@@ -1833,7 +2035,9 @@
     "Phone": "0800 697 8833",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/204/Ekim-Burgers#burger-1684"
+    "Website": "https://www.visawoap.com/venue/204/Ekim-Burgers#burger-1684",
+    "lat": -41.2966929,
+    "lon": 174.7734681
   },
   {
     "Restaurant": "The Featherston",
@@ -1851,7 +2055,9 @@
     "Phone": "04-472 4045",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/363/The-Featherston-City-Tavern#burger-1245"
+    "Website": "https://www.visawoap.com/venue/363/The-Featherston-City-Tavern#burger-1245",
+    "lat": -41.2960274,
+    "lon": 174.7799841
   },
   {
     "Restaurant": "Floriditas",
@@ -1869,7 +2075,9 @@
     "Phone": "04-381 2212",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/534/Floriditas#burger-1915"
+    "Website": "https://www.visawoap.com/venue/534/Floriditas#burger-1915",
+    "lat": -41.294958,
+    "lon": 174.7746409
   },
   {
     "Restaurant": "Gasworks Miramar",
@@ -1887,7 +2095,9 @@
     "Phone": "04-388 8427",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/399/Gasworks#burger-1797"
+    "Website": "https://www.visawoap.com/venue/399/Gasworks#burger-1797",
+    "lat": -41.31102,
+    "lon": 174.7788097
   },
   {
     "Restaurant": "Hot Sauce",
@@ -1905,7 +2115,9 @@
     "Phone": "04-802 8939",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/465/Hot-Sauce#burger-1644"
+    "Website": "https://www.visawoap.com/venue/465/Hot-Sauce#burger-1644",
+    "lat": -41.2858179,
+    "lon": 174.7749813
   },
   {
     "Restaurant": "Jack Hackett's",
@@ -1923,7 +2135,9 @@
     "Phone": "04-384 1910",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/356/Jack-Hackett's-Irish-Pub#burger-1641"
+    "Website": "https://www.visawoap.com/venue/356/Jack-Hackett's-Irish-Pub#burger-1641",
+    "lat": -41.2893606,
+    "lon": 174.7621728
   },
   {
     "Restaurant": "Kanteen",
@@ -1941,7 +2155,9 @@
     "Phone": "04-470 7744",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/54/Kanteen#burger-1611"
+    "Website": "https://www.visawoap.com/venue/54/Kanteen#burger-1611",
+    "lat": -41.289973,
+    "lon": 174.779958
   },
   {
     "Restaurant": "Karaka Cafe",
@@ -1959,7 +2175,9 @@
     "Phone": "04-916 8369",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/16/Karaka-Cafe#burger-1627"
+    "Website": "https://www.visawoap.com/venue/16/Karaka-Cafe#burger-1627",
+    "lat": -41.2829315,
+    "lon": 174.7761368
   },
   {
     "Restaurant": "The Lab Food and Beverage Co.",
@@ -1977,7 +2195,9 @@
     "Phone": "021 358 808",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/664/The-Lab-@-20-Customhouse-Quay#burger-1887"
+    "Website": "https://www.visawoap.com/venue/664/The-Lab-@-20-Customhouse-Quay#burger-1887",
+    "lat": -41.2824622,
+    "lon": 174.776441
   },
   {
     "Restaurant": "Leuven",
@@ -1995,7 +2215,9 @@
     "Phone": "04-499 2939",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/142/Leuven-Belgian-Beer-Cafe#burger-1268"
+    "Website": "https://www.visawoap.com/venue/142/Leuven-Belgian-Beer-Cafe#burger-1268",
+    "lat": -41.2913075,
+    "lon": 174.7755441
   },
   {
     "Restaurant": "Lucky",
@@ -2013,7 +2235,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/458/Lucky#burger-1743"
+    "Website": "https://www.visawoap.com/venue/458/Lucky#burger-1743",
+    "lat": -41.28898,
+    "lon": 174.7743592
   },
   {
     "Restaurant": "Maranui Cafe",
@@ -2031,7 +2255,9 @@
     "Phone": "04-387 4539",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/336/Maranui-Cafe#burger-1792"
+    "Website": "https://www.visawoap.com/venue/336/Maranui-Cafe#burger-1792",
+    "lat": -41.2117038,
+    "lon": 174.9033935
   },
   {
     "Restaurant": "Monsoon Poon",
@@ -2049,7 +2275,9 @@
     "Phone": "04-803 3555",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/219/Monsoon-Poon#burger-1605"
+    "Website": "https://www.visawoap.com/venue/219/Monsoon-Poon#burger-1605",
+    "lat": -41.2942663,
+    "lon": 174.7832352
   },
   {
     "Restaurant": "The Old Quarter",
@@ -2067,7 +2295,9 @@
     "Phone": "04-385 3916",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/482/The-Old-Quarter#burger-1790"
+    "Website": "https://www.visawoap.com/venue/482/The-Old-Quarter#burger-1790",
+    "lat": -41.291451,
+    "lon": 174.794067
   },
   {
     "Restaurant": "Queen of Jackson",
@@ -2085,7 +2315,9 @@
     "Phone": "04-280 9374",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/490/Queen-of-Jackson#burger-1679"
+    "Website": "https://www.visawoap.com/venue/490/Queen-of-Jackson#burger-1679",
+    "lat": -41.282234,
+    "lon": 174.776505
   },
   {
     "Restaurant": "The Ramen Shop - Newtown",
@@ -2103,7 +2335,9 @@
     "Phone": "04-389 2263",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/454/The-Ramen-Shop#burger-1756"
+    "Website": "https://www.visawoap.com/venue/454/The-Ramen-Shop#burger-1756",
+    "lat": -41.291442,
+    "lon": 174.788033
   },
   {
     "Restaurant": "The Ramen Shop - Te Aro",
@@ -2121,7 +2355,9 @@
     "Phone": "04-471 1088",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/455/The-Ramen-Shop-Semi-Permanent#burger-1760"
+    "Website": "https://www.visawoap.com/venue/455/The-Ramen-Shop-Semi-Permanent#burger-1760",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "The Realm",
@@ -2139,7 +2375,9 @@
     "Phone": "04-386 3607",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/82/The-Realm-Bar-and-Bistro#burger-1342"
+    "Website": "https://www.visawoap.com/venue/82/The-Realm-Bar-and-Bistro#burger-1342",
+    "lat": -41.2831569,
+    "lon": 174.7773
   },
   {
     "Restaurant": "Soul Shack",
@@ -2157,7 +2395,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/652/Soul-Shack#burger-1276"
+    "Website": "https://www.visawoap.com/venue/652/Soul-Shack#burger-1276",
+    "lat": 36.3273456,
+    "lon": -95.6327377
   },
   {
     "Restaurant": "St John's",
@@ -2175,7 +2415,9 @@
     "Phone": "04-801 8017",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/483/St-Johns-Bar-and-Eatery#burger-1858"
+    "Website": "https://www.visawoap.com/venue/483/St-Johns-Bar-and-Eatery#burger-1858",
+    "lat": -41.289653,
+    "lon": 174.77921
   },
   {
     "Restaurant": "Steps",
@@ -2193,7 +2435,9 @@
     "Phone": "04-499 9911",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/731/Steps-Restaurant#burger-1649"
+    "Website": "https://www.visawoap.com/venue/731/Steps-Restaurant#burger-1649",
+    "lat": -41.294178,
+    "lon": 174.780417
   },
   {
     "Restaurant": "The Still Room",
@@ -2211,7 +2455,9 @@
     "Phone": "04-562 0007",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/470/The-Still-Room#burger-1928"
+    "Website": "https://www.visawoap.com/venue/470/The-Still-Room#burger-1928",
+    "lat": -40.8668093,
+    "lon": 175.0322579
   },
   {
     "Restaurant": "Tequila Joe's",
@@ -2229,7 +2475,9 @@
     "Phone": "04-802 5637",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/761/Tequila-Joe's#burger-1900"
+    "Website": "https://www.visawoap.com/venue/761/Tequila-Joe's#burger-1900",
+    "lat": -41.289755,
+    "lon": 174.7769348
   },
   {
     "Restaurant": "Thunderbird Cafe",
@@ -2247,7 +2495,9 @@
     "Phone": "04-499 1966",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/123/Thunderbird-Cafe#burger-1914"
+    "Website": "https://www.visawoap.com/venue/123/Thunderbird-Cafe#burger-1914",
+    "lat": -41.2850653,
+    "lon": 174.7788754
   },
   {
     "Restaurant": "Tricky's Sandwich Co.",
@@ -2265,7 +2515,9 @@
     "Phone": "04-528 6425",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/674/Tricky's-Sandwich-Co.#burger-1872"
+    "Website": "https://www.visawoap.com/venue/674/Tricky's-Sandwich-Co.#burger-1872",
+    "lat": -41.286919,
+    "lon": 174.777145
   },
   {
     "Restaurant": "Vivant!",
@@ -2283,7 +2535,9 @@
     "Phone": "04-496 1880",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/567/Vivant!-Restaurant#burger-1307"
+    "Website": "https://www.visawoap.com/venue/567/Vivant!-Restaurant#burger-1307",
+    "lat": -41.2930802,
+    "lon": 174.7767688
   },
   {
     "Restaurant": "Artisan",
@@ -2301,7 +2555,9 @@
     "Phone": "04-462 3770",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/627/Artisan-Dining-House#burger-1657"
+    "Website": "https://www.visawoap.com/venue/627/Artisan-Dining-House#burger-1657",
+    "lat": -41.284744,
+    "lon": 174.778621
   },
   {
     "Restaurant": "The Backbencher",
@@ -2319,7 +2575,9 @@
     "Phone": "04-472 3065",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/424/The-Backbencher-Gastropub#burger-1660"
+    "Website": "https://www.visawoap.com/venue/424/The-Backbencher-Gastropub#burger-1660",
+    "lat": -41.29177,
+    "lon": 174.782438
   },
   {
     "Restaurant": "Enigma Cafe",
@@ -2337,7 +2595,9 @@
     "Phone": "04-385 2905",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/689/Enigma-Cafe#burger-1619"
+    "Website": "https://www.visawoap.com/venue/689/Enigma-Cafe#burger-1619",
+    "lat": -41.1311861,
+    "lon": 175.0675159
   },
   {
     "Restaurant": "Fidel's Cafe",
@@ -2355,7 +2615,9 @@
     "Phone": "04-801 6868",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/513/Fidel's-Cafe#burger-1253"
+    "Website": "https://www.visawoap.com/venue/513/Fidel's-Cafe#burger-1253",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "The Greek Food Truck",
@@ -2373,7 +2635,9 @@
     "Phone": "Unknown",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/743/The-Greek-Food-Truck#burger-1744"
+    "Website": "https://www.visawoap.com/venue/743/The-Greek-Food-Truck#burger-1744",
+    "lat": -41.2959071,
+    "lon": 174.7739487
   },
   {
     "Restaurant": "Juniper",
@@ -2391,7 +2655,9 @@
     "Phone": "04-499 3668",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/144/Juniper-Restaurant-and-Bar#burger-1357"
+    "Website": "https://www.visawoap.com/venue/144/Juniper-Restaurant-and-Bar#burger-1357",
+    "lat": -41.0109536,
+    "lon": 175.5459595
   },
   {
     "Restaurant": "Khandallah Trading Company",
@@ -2409,7 +2675,9 @@
     "Phone": "04-479 4157",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/400/Khandallah-Trading-Company#burger-1754"
+    "Website": "https://www.visawoap.com/venue/400/Khandallah-Trading-Company#burger-1754",
+    "lat": -41.2971615,
+    "lon": 174.7816317
   },
   {
     "Restaurant": "Mexico Wellington",
@@ -2427,7 +2695,9 @@
     "Phone": "04-894 6982",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/745/Mexico-Wellington#burger-1747"
+    "Website": "https://www.visawoap.com/venue/745/Mexico-Wellington#burger-1747",
+    "lat": -41.294874,
+    "lon": 174.7749432
   },
   {
     "Restaurant": "Neo Cafe",
@@ -2445,7 +2715,9 @@
     "Phone": "04-385 9553",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/429/Neo-Cafe-and-Eatery#burger-1314"
+    "Website": "https://www.visawoap.com/venue/429/Neo-Cafe-and-Eatery#burger-1314",
+    "lat": -41.280306,
+    "lon": 174.7753804
   },
   {
     "Restaurant": "Spring Kitchen",
@@ -2463,7 +2735,9 @@
     "Phone": "04-499 3496",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/612/Spring-Kitchen#burger-1241"
+    "Website": "https://www.visawoap.com/venue/612/Spring-Kitchen#burger-1241",
+    "lat": -41.2918261,
+    "lon": 174.7874388
   },
   {
     "Restaurant": "Strathmore Local",
@@ -2481,7 +2755,9 @@
     "Phone": "04-920 0315",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/613/Strathmore-Local-Restaurant-and-Bar#burger-1698"
+    "Website": "https://www.visawoap.com/venue/613/Strathmore-Local-Restaurant-and-Bar#burger-1698",
+    "lat": -41.2238486,
+    "lon": 174.8745054
   },
   {
     "Restaurant": "Ti Kouka",
@@ -2499,7 +2775,9 @@
     "Phone": "04-472 7682",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/644/Ti-Kouka-cafe#burger-1624"
+    "Website": "https://www.visawoap.com/venue/644/Ti-Kouka-cafe#burger-1624",
+    "lat": -41.3479795,
+    "lon": 174.7634579
   },
   {
     "Restaurant": "Waterfront Bar",
@@ -2517,7 +2795,9 @@
     "Phone": "04-902 6363",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/437/Waterfront-Bar#burger-1765"
+    "Website": "https://www.visawoap.com/venue/437/Waterfront-Bar#burger-1765",
+    "lat": -41.2776019,
+    "lon": 174.7779636
   },
   {
     "Restaurant": "1154 Pastaria",
@@ -2535,7 +2815,9 @@
     "Phone": "04-213 9981",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/699/1154-Pastaria#burger-1642"
+    "Website": "https://www.visawoap.com/venue/699/1154-Pastaria#burger-1642",
+    "lat": -41.2924698,
+    "lon": 174.7793674
   },
   {
     "Restaurant": "Bethel Woods",
@@ -2553,7 +2835,9 @@
     "Phone": "04-920 8530",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/393/Bethel-Woods#burger-1667"
+    "Website": "https://www.visawoap.com/venue/393/Bethel-Woods#burger-1667",
+    "lat": -41.2916501,
+    "lon": 174.7795537
   },
   {
     "Restaurant": "Bistro 169",
@@ -2571,7 +2855,9 @@
     "Phone": "04-385 1300",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/117/Bistro-169#burger-1784"
+    "Website": "https://www.visawoap.com/venue/117/Bistro-169#burger-1784",
+    "lat": -41.290173,
+    "lon": 174.897304
   },
   {
     "Restaurant": "Boundary",
@@ -2589,7 +2875,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/757/Boundary-Tap-and-Kitchen#burger-1838"
+    "Website": "https://www.visawoap.com/venue/757/Boundary-Tap-and-Kitchen#burger-1838",
+    "lat": -41.283669,
+    "lon": 174.776677
   },
   {
     "Restaurant": "Brew'd Island Bay",
@@ -2607,7 +2895,9 @@
     "Phone": "04-383 8260",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/408/Brew'd-Island-Bay#burger-1807"
+    "Website": "https://www.visawoap.com/venue/408/Brew'd-Island-Bay#burger-1807",
+    "lat": -41.2948548,
+    "lon": 174.7713259
   },
   {
     "Restaurant": "Brew'd Stokes Valley",
@@ -2625,7 +2915,9 @@
     "Phone": "04-563 5060",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/395/Brew'd-Stokes-Valley#burger-1752"
+    "Website": "https://www.visawoap.com/venue/395/Brew'd-Stokes-Valley#burger-1752",
+    "lat": -41.2933225,
+    "lon": 174.7755373
   },
   {
     "Restaurant": "The Butcher And Brewer",
@@ -2643,7 +2935,9 @@
     "Phone": "04-589 5502",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/188/The-Butcher-and-Brewer#burger-1363"
+    "Website": "https://www.visawoap.com/venue/188/The-Butcher-and-Brewer#burger-1363",
+    "lat": -41.277766,
+    "lon": 174.779681
   },
   {
     "Restaurant": "Cafe Medici",
@@ -2661,7 +2955,9 @@
     "Phone": "06-306 9965",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/196/Cafe-Medici#burger-1726"
+    "Website": "https://www.visawoap.com/venue/196/Cafe-Medici#burger-1726",
+    "lat": -41.2926811,
+    "lon": 174.7773837
   },
   {
     "Restaurant": "Cafe Par-Tee",
@@ -2679,7 +2975,9 @@
     "Phone": "04-212 5530",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/726/Cafe-Par-Tee#burger-1623"
+    "Website": "https://www.visawoap.com/venue/726/Cafe-Par-Tee#burger-1623",
+    "lat": -41.288122,
+    "lon": 174.7752231
   },
   {
     "Restaurant": "Coco's Bar & Grill",
@@ -2697,7 +2995,9 @@
     "Phone": "04-472 2120",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/396/Coco's-Bar-and-Grill#burger-1685"
+    "Website": "https://www.visawoap.com/venue/396/Coco's-Bar-and-Grill#burger-1685",
+    "lat": -41.292004,
+    "lon": 174.777031
   },
   {
     "Restaurant": "Fratelli",
@@ -2715,7 +3015,9 @@
     "Phone": "04-801 6615",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/435/Fratelli#burger-1894"
+    "Website": "https://www.visawoap.com/venue/435/Fratelli#burger-1894",
+    "lat": -41.2894575,
+    "lon": 174.7743433
   },
   {
     "Restaurant": "Glasshouse",
@@ -2733,7 +3035,9 @@
     "Phone": "04-473 2208",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/535/Glasshouse-Bar-and-Grill#burger-1845"
+    "Website": "https://www.visawoap.com/venue/535/Glasshouse-Bar-and-Grill#burger-1845",
+    "lat": -41.3251593,
+    "lon": 174.8205811
   },
   {
     "Restaurant": "The Hangar",
@@ -2751,7 +3055,9 @@
     "Phone": "04-830 0909",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/559/The-Hangar#burger-1793"
+    "Website": "https://www.visawoap.com/venue/559/The-Hangar#burger-1793",
+    "lat": -41.28293,
+    "lon": 174.77685
   },
   {
     "Restaurant": "Honey Badger Saloon",
@@ -2769,7 +3075,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/403/Honey-Badger-Saloon#burger-1827"
+    "Website": "https://www.visawoap.com/venue/403/Honey-Badger-Saloon#burger-1827",
+    "lat": -41.217653,
+    "lon": 175.45852
   },
   {
     "Restaurant": "Le Samourai",
@@ -2787,7 +3095,9 @@
     "Phone": "04-385 6652",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/459/Le-Samourai#burger-1808"
+    "Website": "https://www.visawoap.com/venue/459/Le-Samourai#burger-1808",
+    "lat": -41.2965376,
+    "lon": 174.774582
   },
   {
     "Restaurant": "Lola Stays",
@@ -2805,7 +3115,9 @@
     "Phone": "04-385 8703",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/388/Lola-Stays#burger-1254"
+    "Website": "https://www.visawoap.com/venue/388/Lola-Stays#burger-1254",
+    "lat": -41.2899249,
+    "lon": 174.7744627
   },
   {
     "Restaurant": "Mexico Petone",
@@ -2823,7 +3135,9 @@
     "Phone": "04-566 0988",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/746/Mexico-Petone#burger-1749"
+    "Website": "https://www.visawoap.com/venue/746/Mexico-Petone#burger-1749",
+    "lat": 39.9865484,
+    "lon": -82.9920414
   },
   {
     "Restaurant": "Olive Restaurant",
@@ -2841,7 +3155,9 @@
     "Phone": "04-802 5266",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/688/olive#burger-1891"
+    "Website": "https://www.visawoap.com/venue/688/olive#burger-1891",
+    "lat": -41.174583,
+    "lon": 174.9811621
   },
   {
     "Restaurant": "Peppers Parehua",
@@ -2859,7 +3175,9 @@
     "Phone": "0800 275 373",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/601/Peppers-Parehua#burger-1604"
+    "Website": "https://www.visawoap.com/venue/601/Peppers-Parehua#burger-1604",
+    "lat": 30.5082182,
+    "lon": -97.6784845
   },
   {
     "Restaurant": "Plum",
@@ -2877,7 +3195,9 @@
     "Phone": "04-384 8881",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/329/Plum#burger-1911"
+    "Website": "https://www.visawoap.com/venue/329/Plum#burger-1911",
+    "lat": -41.291779,
+    "lon": 174.7878
   },
   {
     "Restaurant": "Pram Beach Restaurant",
@@ -2895,7 +3215,9 @@
     "Phone": "04-298 8196",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/438/Pram-Beach#burger-1768"
+    "Website": "https://www.visawoap.com/venue/438/Pram-Beach#burger-1768",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "Pravda Cafe",
@@ -2913,7 +3235,9 @@
     "Phone": "04-801 8858",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/450/Pravda-Cafe-and-Grill#burger-1689"
+    "Website": "https://www.visawoap.com/venue/450/Pravda-Cafe-and-Grill#burger-1689",
+    "lat": -41.2972422,
+    "lon": 174.7743272
   },
   {
     "Restaurant": "Red Hill",
@@ -2931,7 +3255,9 @@
     "Phone": "04-385 6888",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/362/Red-Hill#burger-1636"
+    "Website": "https://www.visawoap.com/venue/362/Red-Hill#burger-1636",
+    "lat": -41.286091,
+    "lon": 174.7766028
   },
   {
     "Restaurant": "Scorch O Rama",
@@ -2949,7 +3275,9 @@
     "Phone": "04-388 4970",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/608/Scorch-O-Rama#burger-1846"
+    "Website": "https://www.visawoap.com/venue/608/Scorch-O-Rama#burger-1846",
+    "lat": -41.293712,
+    "lon": 174.784003
   },
   {
     "Restaurant": "Seashore Cabaret",
@@ -2967,7 +3295,9 @@
     "Phone": "04-566 6274",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/752/Seashore-Cabaret-Cafe#burger-1777"
+    "Website": "https://www.visawoap.com/venue/752/Seashore-Cabaret-Cafe#burger-1777",
+    "lat": -41.224035,
+    "lon": 174.8738398
   },
   {
     "Restaurant": "Siem Reap",
@@ -2985,7 +3315,9 @@
     "Phone": "04-385 4590",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/423/Siem-Reap#burger-1265"
+    "Website": "https://www.visawoap.com/venue/423/Siem-Reap#burger-1265",
+    "lat": -41.313102,
+    "lon": 174.779933
   },
   {
     "Restaurant": "The Simply Grill Kitchen",
@@ -3003,7 +3335,9 @@
     "Phone": "04-213 9391",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/677/The-Simply-Grill-Kitchen#burger-1426"
+    "Website": "https://www.visawoap.com/venue/677/The-Simply-Grill-Kitchen#burger-1426",
+    "lat": -41.2915911,
+    "lon": 174.7938835
   },
   {
     "Restaurant": "Soprano Petone",
@@ -3021,7 +3355,9 @@
     "Phone": "04-568 9557",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/716/Soprano-Petone#burger-1897"
+    "Website": "https://www.visawoap.com/venue/716/Soprano-Petone#burger-1897",
+    "lat": -12.0463731,
+    "lon": -77.042754
   },
   {
     "Restaurant": "The Crab Shack",
@@ -3039,7 +3375,9 @@
     "Phone": "04-916 4250",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/760/The-Crab-Shack#burger-1859"
+    "Website": "https://www.visawoap.com/venue/760/The-Crab-Shack#burger-1859",
+    "lat": -41.293725,
+    "lon": 174.782793
   },
   {
     "Restaurant": "Trade Kitchen",
@@ -3057,7 +3395,9 @@
     "Phone": "04-499 1639",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/172/Trade-Kitchen#burger-1338"
+    "Website": "https://www.visawoap.com/venue/172/Trade-Kitchen#burger-1338",
+    "lat": -41.2846651,
+    "lon": 174.7791097
   },
   {
     "Restaurant": "Vinyl Bar",
@@ -3075,7 +3415,9 @@
     "Phone": "04-385 6713",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/622/Vinyl-Bar#burger-1819"
+    "Website": "https://www.visawoap.com/venue/622/Vinyl-Bar#burger-1819",
+    "lat": -41.2971748,
+    "lon": 174.7829236
   },
   {
     "Restaurant": "Viva Mexico Left Bank",
@@ -3093,7 +3435,9 @@
     "Phone": "04-382 9913",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/751/Viva-Mexico-Left-Bank#burger-1779"
+    "Website": "https://www.visawoap.com/venue/751/Viva-Mexico-Left-Bank#burger-1779",
+    "lat": -41.3158501,
+    "lon": 174.8162593
   },
   {
     "Restaurant": "The Welsh Dragon Bar",
@@ -3111,7 +3455,9 @@
     "Phone": "04-385 6566",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/728/The-Welsh-Dragon-Bar#burger-1628"
+    "Website": "https://www.visawoap.com/venue/728/The-Welsh-Dragon-Bar#burger-1628",
+    "lat": -41.293014,
+    "lon": 174.775106
   },
   {
     "Restaurant": "Whiskey Lima Golf",
@@ -3129,7 +3475,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/603/Whiskey-Lima-Golf#burger-1622"
+    "Website": "https://www.visawoap.com/venue/603/Whiskey-Lima-Golf#burger-1622",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "Wilson Barbecue @ Pop",
@@ -3147,7 +3495,9 @@
     "Phone": "04-470 7805",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/691/Wilson-Barbecue-@-Pop#burger-1909"
+    "Website": "https://www.visawoap.com/venue/691/Wilson-Barbecue-@-Pop#burger-1909",
+    "lat": -41.2941602,
+    "lon": 174.7841044
   },
   {
     "Restaurant": "Wilson Barbeque @ The Third Eye",
@@ -3165,7 +3515,9 @@
     "Phone": "04-801 5751",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/763/Wilson-Barbecue-@-The-Third-Eye#burger-1906"
+    "Website": "https://www.visawoap.com/venue/763/Wilson-Barbecue-@-The-Third-Eye#burger-1906",
+    "lat": -41.2921146,
+    "lon": 174.777561
   },
   {
     "Restaurant": "Aston Norwood Cafe",
@@ -3183,7 +3535,9 @@
     "Phone": "04-526 6639",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/680/Aston-Norwood-Cafe#burger-1393"
+    "Website": "https://www.visawoap.com/venue/680/Aston-Norwood-Cafe#burger-1393",
+    "lat": -41.2939414,
+    "lon": 174.7757204
   },
   {
     "Restaurant": "Best Ugly Bagels",
@@ -3201,7 +3555,9 @@
     "Phone": "04-803 3563",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/750/Best-Ugly-bagels#burger-1770"
+    "Website": "https://www.visawoap.com/venue/750/Best-Ugly-bagels#burger-1770",
+    "lat": -41.1314022,
+    "lon": 174.8395276
   },
   {
     "Restaurant": "Boom Burger",
@@ -3219,7 +3575,9 @@
     "Phone": "04-803 3898",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/703/Boom-Burger#burger-1510"
+    "Website": "https://www.visawoap.com/venue/703/Boom-Burger#burger-1510",
+    "lat": -41.2852012,
+    "lon": 174.7775902
   },
   {
     "Restaurant": "Buzz Cafe",
@@ -3237,7 +3595,9 @@
     "Phone": "04-566 2899",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/678/Buzz-Cafe-Restaurant#burger-1364"
+    "Website": "https://www.visawoap.com/venue/678/Buzz-Cafe-Restaurant#burger-1364",
+    "lat": -41.2940649,
+    "lon": 174.7844758
   },
   {
     "Restaurant": "Capitol",
@@ -3255,7 +3615,9 @@
     "Phone": "04-384 2855",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/313/Capitol-Restaurant#burger-1902"
+    "Website": "https://www.visawoap.com/venue/313/Capitol-Restaurant#burger-1902",
+    "lat": -41.2938,
+    "lon": 174.783484
   },
   {
     "Restaurant": "CoCo at The Roxy",
@@ -3273,7 +3635,9 @@
     "Phone": "04-388 5555",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/460/CoCo-at-the-Roxy#burger-1693"
+    "Website": "https://www.visawoap.com/venue/460/CoCo-at-the-Roxy#burger-1693",
+    "lat": -41.2885058,
+    "lon": 174.7776239
   },
   {
     "Restaurant": "CQ",
@@ -3291,7 +3655,9 @@
     "Phone": "04-385 2156",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/633/CQ-Hotel#burger-1243"
+    "Website": "https://www.visawoap.com/venue/633/CQ-Hotel#burger-1243",
+    "lat": -41.2930425,
+    "lon": 174.7807922
   },
   {
     "Restaurant": "Eva Beva",
@@ -3309,7 +3675,9 @@
     "Phone": "04-595 1093",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/621/Eva-Beva#burger-1794"
+    "Website": "https://www.visawoap.com/venue/621/Eva-Beva#burger-1794",
+    "lat": -41.314193,
+    "lon": 174.813869
   },
   {
     "Restaurant": "Fryday Donuts",
@@ -3327,7 +3695,9 @@
     "Phone": "022 175 5489",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/730/Fryday-Donuts#burger-1879"
+    "Website": "https://www.visawoap.com/venue/730/Fryday-Donuts#burger-1879",
+    "lat": -41.2931798,
+    "lon": 174.7805717
   },
   {
     "Restaurant": "Goldie Milk Bar",
@@ -3345,7 +3715,9 @@
     "Phone": "04-801 8886",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/740/Goldie-Milkbar-and-Eatery#burger-1699"
+    "Website": "https://www.visawoap.com/venue/740/Goldie-Milkbar-and-Eatery#burger-1699",
+    "lat": -41.28332,
+    "lon": 174.777158
   },
   {
     "Restaurant": "The Hop Garden",
@@ -3363,7 +3735,9 @@
     "Phone": "04-801 8807",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/163/The-Hop-Garden#burger-1876"
+    "Website": "https://www.visawoap.com/venue/163/The-Hop-Garden#burger-1876",
+    "lat": -41.2815355,
+    "lon": 174.779873
   },
   {
     "Restaurant": "Long Beach Cafe",
@@ -3381,7 +3755,9 @@
     "Phone": "04-293 6760",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/619/Longbeach#burger-1669"
+    "Website": "https://www.visawoap.com/venue/619/Longbeach#burger-1669",
+    "lat": -41.28995,
+    "lon": 174.7758217
   },
   {
     "Restaurant": "Ministry of Food",
@@ -3399,7 +3775,9 @@
     "Phone": "04-499 5209",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/114/Ministry-of-Food#burger-1841"
+    "Website": "https://www.visawoap.com/venue/114/Ministry-of-Food#burger-1841",
+    "lat": -41.293401,
+    "lon": 174.775799
   },
   {
     "Restaurant": "Mishmosh",
@@ -3417,7 +3795,9 @@
     "Phone": "04-384 8015",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/387/Mishmosh#burger-1302"
+    "Website": "https://www.visawoap.com/venue/387/Mishmosh#burger-1302",
+    "lat": -41.2864603,
+    "lon": 174.776236
   },
   {
     "Restaurant": "Mt Vic Chippery",
@@ -3435,7 +3815,9 @@
     "Phone": "04-382 8713",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/488/Mt-Vic-Chippery#burger-1637"
+    "Website": "https://www.visawoap.com/venue/488/Mt-Vic-Chippery#burger-1637",
+    "lat": -41.2895812,
+    "lon": 174.7743234
   },
   {
     "Restaurant": "Parrotdog Brewery",
@@ -3453,7 +3835,9 @@
     "Phone": "04-384 8077",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/668/Parrotdog#burger-1833"
+    "Website": "https://www.visawoap.com/venue/668/Parrotdog#burger-1833",
+    "lat": -41.330452,
+    "lon": 174.793414
   },
   {
     "Restaurant": "Scopa Caffe Cucina",
@@ -3471,7 +3855,9 @@
     "Phone": "04-384 6020",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/337/Scopa#burger-1651"
+    "Website": "https://www.visawoap.com/venue/337/Scopa#burger-1651",
+    "lat": -41.2820219,
+    "lon": 174.7785279
   },
   {
     "Restaurant": "Thorndon Chippery",
@@ -3489,7 +3875,9 @@
     "Phone": "04-499 5252",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/487/Thorndon-Chippery#burger-1673"
+    "Website": "https://www.visawoap.com/venue/487/Thorndon-Chippery#burger-1673",
+    "lat": -41.225075,
+    "lon": 174.8672556
   },
   {
     "Restaurant": "Viva Mexico Newtown",
@@ -3507,7 +3895,9 @@
     "Phone": "04-389 0975",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/364/Viva-Mexico-Newtown#burger-1740"
+    "Website": "https://www.visawoap.com/venue/364/Viva-Mexico-Newtown#burger-1740",
+    "lat": -41.29528,
+    "lon": 174.766953
   },
   {
     "Restaurant": "Carrello",
@@ -3525,7 +3915,9 @@
     "Phone": "04-891 3827",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/339/Carrello-del-Gelato#burger-1645"
+    "Website": "https://www.visawoap.com/venue/339/Carrello-del-Gelato#burger-1645",
+    "lat": -41.1173913,
+    "lon": 174.8928507
   },
   {
     "Restaurant": "The Tote",
@@ -3543,7 +3935,9 @@
     "Phone": "04-527 1909",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/522/Craft-Beer-and-Pizza#burger-1472"
+    "Website": "https://www.visawoap.com/venue/522/Craft-Beer-and-Pizza#burger-1472",
+    "lat": -41.2825168,
+    "lon": 174.7449661
   },
   {
     "Restaurant": "The Library",
@@ -3561,7 +3955,9 @@
     "Phone": "04-382 8593",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/152/The-Library#burger-1826"
+    "Website": "https://www.visawoap.com/venue/152/The-Library#burger-1826",
+    "lat": -41.2809832,
+    "lon": 174.7793842
   },
   {
     "Restaurant": "Sweet Bakery & Cakery",
@@ -3579,7 +3975,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/666/Sweet-Bakery-and-Cakery#burger-1304"
+    "Website": "https://www.visawoap.com/venue/666/Sweet-Bakery-and-Cakery#burger-1304",
+    "lat": -41.2938737,
+    "lon": 174.7755452
   },
   {
     "Restaurant": "1815 Cafe & Bar",
@@ -3597,7 +3995,9 @@
     "Phone": "04-474 1309",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/58/1815-Cafe-and-Bar#burger-1694"
+    "Website": "https://www.visawoap.com/venue/58/1815-Cafe-and-Bar#burger-1694",
+    "lat": -41.2944616,
+    "lon": 174.7729038
   },
   {
     "Restaurant": "Aro Cafe",
@@ -3615,7 +4015,9 @@
     "Phone": "04-384 4970",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/720/Aro-Cafe#burger-1602"
+    "Website": "https://www.visawoap.com/venue/720/Aro-Cafe#burger-1602",
+    "lat": -41.291774,
+    "lon": 174.782443
   },
   {
     "Restaurant": "Baobab Cafe",
@@ -3633,7 +4035,9 @@
     "Phone": "04-380 0470",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/694/Baobab-cafe#burger-1469"
+    "Website": "https://www.visawoap.com/venue/694/Baobab-cafe#burger-1469",
+    "lat": -41.123931,
+    "lon": 175.0706772
   },
   {
     "Restaurant": "Basque",
@@ -3651,7 +4055,9 @@
     "Phone": "04-802 5585",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/247/Basque#burger-1868"
+    "Website": "https://www.visawoap.com/venue/247/Basque#burger-1868",
+    "lat": 47.6607172,
+    "lon": -122.3080723
   },
   {
     "Restaurant": "The Botanist",
@@ -3669,7 +4075,9 @@
     "Phone": "04-891 0198",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/474/The-Botanist#burger-1901"
+    "Website": "https://www.visawoap.com/venue/474/The-Botanist#burger-1901",
+    "lat": -41.293331,
+    "lon": 174.782331
   },
   {
     "Restaurant": "Fratelli Pasta Bar",
@@ -3687,7 +4095,9 @@
     "Phone": "Unknown",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/596/Fratelli-Pasta-Bar#burger-1865"
+    "Website": "https://www.visawoap.com/venue/596/Fratelli-Pasta-Bar#burger-1865",
+    "lat": -41.2926376,
+    "lon": 174.7789336
   },
   {
     "Restaurant": "Hillside",
@@ -3705,7 +4115,9 @@
     "Phone": "04-473 7140",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/457/Hillside-Kitchen-and-Cellar#burger-1668"
+    "Website": "https://www.visawoap.com/venue/457/Hillside-Kitchen-and-Cellar#burger-1668",
+    "lat": -41.29302,
+    "lon": 174.778191
   },
   {
     "Restaurant": "Husk",
@@ -3723,7 +4135,9 @@
     "Phone": "04-282 0583",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/282/HUSK#burger-1666"
+    "Website": "https://www.visawoap.com/venue/282/HUSK#burger-1666",
+    "lat": -41.2889641,
+    "lon": 174.7682598
   },
   {
     "Restaurant": "Lido",
@@ -3741,7 +4155,9 @@
     "Phone": "04-499 6665",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/695/Lido#burger-1458"
+    "Website": "https://www.visawoap.com/venue/695/Lido#burger-1458",
+    "lat": -41.2810346,
+    "lon": 174.7760794
   },
   {
     "Restaurant": "Lord of the Fries",
@@ -3759,7 +4175,9 @@
     "Phone": "04-260 2012",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/645/Lord-of-the-Fries#burger-1260"
+    "Website": "https://www.visawoap.com/venue/645/Lord-of-the-Fries#burger-1260",
+    "lat": -41.2939049,
+    "lon": 174.7812132
   },
   {
     "Restaurant": "Moon",
@@ -3777,7 +4195,9 @@
     "Phone": "04-389 9933",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/578/Moon#burger-1650"
+    "Website": "https://www.visawoap.com/venue/578/Moon#burger-1650",
+    "lat": -41.1236225,
+    "lon": 175.0748628
   },
   {
     "Restaurant": "Nikau Cafe",
@@ -3795,7 +4215,9 @@
     "Phone": "04-801 4168",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/708/Nikau-Cafe#burger-1530"
+    "Website": "https://www.visawoap.com/venue/708/Nikau-Cafe#burger-1530",
+    "lat": -41.2916453,
+    "lon": 174.7773267
   },
   {
     "Restaurant": "Oviedo Cafe",
@@ -3813,7 +4235,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/611/Oviedo-Cafe#burger-1895"
+    "Website": "https://www.visawoap.com/venue/611/Oviedo-Cafe#burger-1895",
+    "lat": -41.280364,
+    "lon": 174.7761488
   },
   {
     "Restaurant": "Seize",
@@ -3831,7 +4255,9 @@
     "Phone": "0274 585 886",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/207/Seize#burger-1815"
+    "Website": "https://www.visawoap.com/venue/207/Seize#burger-1815",
+    "lat": -41.2925575,
+    "lon": 174.7769974
   },
   {
     "Restaurant": "Shady Lady",
@@ -3849,7 +4275,9 @@
     "Phone": "Unknown",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/623/Shady-Lady#burger-1802"
+    "Website": "https://www.visawoap.com/venue/623/Shady-Lady#burger-1802",
+    "lat": -41.2275364,
+    "lon": 174.8744028
   },
   {
     "Restaurant": "Sweet Release Cakes and Treats",
@@ -3867,7 +4295,9 @@
     "Phone": "027 285 3046",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/577/Sweet-Release-Cakes-and-Treats#burger-1592"
+    "Website": "https://www.visawoap.com/venue/577/Sweet-Release-Cakes-and-Treats#burger-1592",
+    "lat": -41.2067915,
+    "lon": 174.9076031
   },
   {
     "Restaurant": "D4 on Featherston",
@@ -3885,7 +4315,9 @@
     "Phone": "04-910 8216",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/312/D4-on-Featherston#burger-1715"
+    "Website": "https://www.visawoap.com/venue/312/D4-on-Featherston#burger-1715",
+    "lat": -41.274745,
+    "lon": 174.776299
   },
   {
     "Restaurant": "Greytown Hotel",
@@ -3903,7 +4335,9 @@
     "Phone": "06-304 9138",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/481/Greytown-Hotel-The-Top-Pub#burger-1787"
+    "Website": "https://www.visawoap.com/venue/481/Greytown-Hotel-The-Top-Pub#burger-1787",
+    "lat": -41.281023,
+    "lon": 174.778522
   },
   {
     "Restaurant": "The Residence",
@@ -3921,7 +4355,9 @@
     "Phone": "04-979 8042",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/563/The-Residence-Bar#burger-1814"
+    "Website": "https://www.visawoap.com/venue/563/The-Residence-Bar#burger-1814",
+    "lat": -41.298115,
+    "lon": 174.832221
   },
   {
     "Restaurant": "The Beach House and Kiosk",
@@ -3939,7 +4375,9 @@
     "Phone": "04-383 5108",
     "Fries": "No Fries Included",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/575/Beach-House-and-Kiosk#burger-1640"
+    "Website": "https://www.visawoap.com/venue/575/Beach-House-and-Kiosk#burger-1640",
+    "lat": -41.2927149,
+    "lon": 174.7762305
   },
   {
     "Restaurant": "Bebemos",
@@ -3957,7 +4395,9 @@
     "Phone": "04-389 8930",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/532/Bebemos#burger-1755"
+    "Website": "https://www.visawoap.com/venue/532/Bebemos#burger-1755",
+    "lat": -41.2906736,
+    "lon": 174.7747779
   },
   {
     "Restaurant": "Counter Culture",
@@ -3975,7 +4415,9 @@
     "Phone": "04-891 2345",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/646/Counter-Culture-Board-Game-Cafe-and-Bar#burger-1718"
+    "Website": "https://www.visawoap.com/venue/646/Counter-Culture-Board-Game-Cafe-and-Bar#burger-1718",
+    "lat": -41.2843058,
+    "lon": 174.7750507
   },
   {
     "Restaurant": "El Culo Del Mundo",
@@ -3993,7 +4435,9 @@
     "Phone": "04-801 6409",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/647/El-Culo-del-Mundo#burger-1339"
+    "Website": "https://www.visawoap.com/venue/647/El-Culo-del-Mundo#burger-1339",
+    "lat": -41.303938,
+    "lon": 174.7941592
   },
   {
     "Restaurant": "El Matador",
@@ -4011,7 +4455,9 @@
     "Phone": "04-381 2999",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/261/El-Matador-Cafe-Asador-Grill-and-Bar#burger-1803"
+    "Website": "https://www.visawoap.com/venue/261/El-Matador-Cafe-Asador-Grill-and-Bar#burger-1803",
+    "lat": -41.2251072,
+    "lon": 174.878416
   },
   {
     "Restaurant": "Giuseppe's",
@@ -4029,7 +4475,9 @@
     "Phone": "04-566 8232",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/723/Giuseppe's#burger-1612"
+    "Website": "https://www.visawoap.com/venue/723/Giuseppe's#burger-1612",
+    "lat": -41.2841122,
+    "lon": 174.7773131
   },
   {
     "Restaurant": "The Green Man Pub",
@@ -4047,7 +4495,9 @@
     "Phone": "04-499 5440",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/90/The-Green-Man-Pub#burger-1813"
+    "Website": "https://www.visawoap.com/venue/90/The-Green-Man-Pub#burger-1813",
+    "lat": -41.0817495,
+    "lon": 175.206462
   },
   {
     "Restaurant": "Hippopotamus",
@@ -4065,7 +4515,9 @@
     "Phone": "04-802 8935",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/464/Hippopotamus-Restaurant#burger-1509"
+    "Website": "https://www.visawoap.com/venue/464/Hippopotamus-Restaurant#burger-1509",
+    "lat": -41.076799,
+    "lon": 175.464675
   },
   {
     "Restaurant": "The Larder",
@@ -4083,7 +4535,9 @@
     "Phone": "04-891 0354",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/132/The-Larder#burger-1742"
+    "Website": "https://www.visawoap.com/venue/132/The-Larder#burger-1742",
+    "lat": -41.2805782,
+    "lon": 174.7755802
   },
   {
     "Restaurant": "Meow",
@@ -4101,7 +4555,9 @@
     "Phone": "04-385 8883",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/742/Meow#burger-1722"
+    "Website": "https://www.visawoap.com/venue/742/Meow#burger-1722",
+    "lat": -40.9884522,
+    "lon": 174.9517177
   },
   {
     "Restaurant": "One Fat Bird",
@@ -4119,7 +4575,9 @@
     "Phone": "04-920 0320",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/401/One-Fat-Bird#burger-1773"
+    "Website": "https://www.visawoap.com/venue/401/One-Fat-Bird#burger-1773",
+    "lat": -41.2882129,
+    "lon": 174.7750421
   },
   {
     "Restaurant": "Penthouse Cinema & Cafe",
@@ -4137,7 +4595,9 @@
     "Phone": "04-384 3157",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/433/Penthouse-Cinema-and-Cafe#burger-1230"
+    "Website": "https://www.visawoap.com/venue/433/Penthouse-Cinema-and-Cafe#burger-1230",
+    "lat": -41.292014,
+    "lon": 174.777134
   },
   {
     "Restaurant": "Shepherd",
@@ -4155,7 +4615,9 @@
     "Phone": "04-385 7274",
     "Fries": "No Fries Included",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/167/Shepherd#burger-1913"
+    "Website": "https://www.visawoap.com/venue/167/Shepherd#burger-1913",
+    "lat": -41.27941,
+    "lon": 174.774772
   },
   {
     "Restaurant": "Waimea Restaurant",
@@ -4173,7 +4635,9 @@
     "Phone": "04-293 4240",
     "Fries": "Includes Fries",
     "Wheelchair": "No Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/25/Waimea#burger-1771"
+    "Website": "https://www.visawoap.com/venue/25/Waimea#burger-1771",
+    "lat": -41.2846247,
+    "lon": 174.7794884
   },
   {
     "Restaurant": "Willi's Kitchen",
@@ -4191,6 +4655,8 @@
     "Phone": "04-801 7234",
     "Fries": "Includes Fries",
     "Wheelchair": "Wheelchair Access",
-    "Website": "https://www.visawoap.com/venue/472/Willi's-Kitchen#burger-1683"
+    "Website": "https://www.visawoap.com/venue/472/Willi's-Kitchen#burger-1683",
+    "lat": -40.8752334,
+    "lon": 175.0641067
   }
 ]
