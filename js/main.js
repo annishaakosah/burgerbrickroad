@@ -4,7 +4,7 @@ var marker = false; ////Has the user plotted their location marker?
 var currentLocation;
 var lowerBurgerPrice;
 var upperBurgerPrice;
-var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
+//var APIKey = "AIzaSyAXfBF4xyoh1TM3QxULSMM23xSAd2m4LXA";
 var burgers;//all burgers
 images = [
   'https://goodcms.s3.amazonaws.com/woap/event/woap-burger-19-190305-121648.jpg',
@@ -41,7 +41,7 @@ function initMap() {
 
     //Create the map object.
     map = new google.maps.Map(document.getElementById('map'), options);
-
+    console.log("MAP LOADING");
     //Listen for any clicks on the map.
     google.maps.event.addListener(map, 'click', function(event) {
         //Get the location that the user clicked.
@@ -96,13 +96,14 @@ function submitInput() {
     // }
 
     storeBurgerPrice();
+    console.log(currentLocation.lat() + " " + currentLocation.lng())
 
     let filteredBurgers = filterBurgers(burgers, lowerBurgerPrice, upperBurgerPrice);
-    // document.getElementById('showBurgers').style.display = "block";
+    let sortedBurgers = sortBurgersByDistance(filteredBurgers, currentLocation.lat(), currentLocation.lng(), 0.5, 10);
 
     let str = '<div class="burger-container">';
     let i = 0;
-    filteredBurgers.slice(0,10).forEach(function (burger) {
+    sortedBurgers.forEach(function (burger) {
         str += '<div class="burger-item">';
             str += '<div class="column left">';
                 str += '<div class="restaurant-details">';
@@ -134,26 +135,11 @@ function submitInput() {
     document.getElementById("results-div").style.display = "block";
 }
 
-// getVenueLocation(element.resturant);
-
-function getVenueLocation(venue) {
-    var dataObject;
-    var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
-    var Http = new XMLHttpRequest();
-    const url=`https://maps.googleapis.com/maps/api/geocode/json?address=Apache+Wellington+NZ,+CA&key=${APIKey}`;
-    Http.open("GET", url);
-    Http.send();
-
-    Http.onload = function() {
-        dataObject =  JSON.parse(Http.responseText);
-        // console.log(dataObject.results[0].geometry.location.lat);
-    };
-}
-
 function loadJson(){
     $.getJSON('../data/burgers.json', function(obj) {
         burgers = obj;
     });
+
 }
 
 function filterBurgers(burgers, minPrice, maxPrice){
@@ -165,3 +151,30 @@ function filterBurgers(burgers, minPrice, maxPrice){
 
     return filteredBurgers;
 }
+
+function sortBurgersByDistance(burgers, latitude, longitude, range, maxNum){
+    var sortedBurgers = burgers.slice();
+    sortedBurgers = sortedBurgers.filter((burger) => (
+        getDistanceFromLatLonInKm(latitude, longitude,  burger.lat, burger.lon) <= range
+    ));
+    return sortedBurgers.slice(0, Math.min(maxNum, sortedBurgers.length));
+}
+
+function getDistanceFromLatLonInKm(lat1, lon1, lat2, lon2) {
+    var R = 6371; // Radius of the earth in km
+    var dLat = deg2rad(lat2-lat1);  // deg2rad below
+    var dLon = deg2rad(lon2-lon1);
+    var a =
+        Math.sin(dLat/2) * Math.sin(dLat/2) +
+        Math.cos(deg2rad(lat1)) * Math.cos(deg2rad(lat2)) *
+        Math.sin(dLon/2) * Math.sin(dLon/2)
+    ;
+    var c = 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1-a));
+    var d = R * c; // Distance in km
+    return d;
+}
+function deg2rad(deg) {
+    return deg * (Math.PI/180)
+}
+
+window.onload = function () { initMap(); loadJson(); };
