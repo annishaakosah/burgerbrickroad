@@ -20,7 +20,7 @@ function getVenueLocation(venue){
 
     Http.onload = function() {
         dataObject =  JSON.parse(Http.responseText);
-        console.log(dataObject.results[0].geometry.location.lat + "\t" + dataObject.results[0].geometry.location.lng);
+        console.log(venue + ", " + dataObject.results[0].geometry.location.lat + ", " + dataObject.results[0].geometry.location.lng);
     };
 }
 
