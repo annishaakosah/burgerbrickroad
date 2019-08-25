@@ -31,7 +31,7 @@ body {
 
 .brand {
   font-family: Avenir-Black, sans-serif;
-  font-size: 80pt;
+  font-size: 80px;
   font-weight: 400;
   font-style: normal;
 }
@@ -46,6 +46,7 @@ body {
   font-family: Avenir-Black, sans-serif;
   color: #F69F3A;
   margin-bottom: 36px;
+  margin-top: 100px;
 }
 
 .logo {
