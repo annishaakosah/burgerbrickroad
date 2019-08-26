@@ -1,6 +1,6 @@
 /******* General *******/
 * {
-    font-family: 'Avenir', sans-serif;
+  font-family: 'Avenir', sans-serif;
 }
 
 html {
@@ -45,6 +45,7 @@ body {
 .section-title {
   font-family: Avenir-Black, sans-serif;
   color: #F69F3A;
+  display: inline-block;
   margin-bottom: 20px;
   margin-top: 100px;
   line-height: 1;
@@ -71,9 +72,9 @@ body {
 }
 
 
+
 .map{
-  display:;
-  margin-bottom: 32px;
+  display: block;
   width:700px;
   height: 500px;
   margin-left: auto;
@@ -137,22 +138,29 @@ body {
 
 
 .text-button {
-border: 0;
-background-color: transparent;
-color: #F69F3A;
-font-size: 30px;
-font-family: Avenir-Black, sans-serif;
-padding: 8px 16px;
-transition: all .2s ease-in-out;
+  border: 0;
+  background-color: transparent;
+  color: #F69F3A;
+  font-size: 30px;
+  font-family: Avenir-Black, sans-serif;
+  padding: 8px 16px;
+  transition: all .2s ease-in-out;
+  margin-top: 32px;
+  display: block;
+  text-decoration: none;
 
 }
 
 .text-button:hover { transform: scale(1.1); }
 
 .description {
-font-size: 15px;
-color: white;
-margin-bottom: 36px;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 36px;
+}
+
+a {
+  text-decoration: none;
 }
 
 .results-div {
@@ -217,4 +225,33 @@ margin-bottom: 36px;
 .restaurant-details {
   margin-bottom: 20px;
   font-size: 27px;
+}
+
+.price-range-label {
+  font-size: 15px;
+  margin-bottom: 10px;
+  display: block;
+
+}
+
+.price-range-input {
+  background-color: #4E59BA;
+  text-align: center;
+  color: white;
+  padding: 10px 26px;
+  border-radius: 13px;
+  border: 0;
+  font-family: Avenir-Black, sans-serif;
+  font-size: 20px;
+  display: block;
+}
+
+.price-range {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.min {
+  margin-right: 16px;
 }

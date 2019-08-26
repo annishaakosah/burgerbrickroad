@@ -52,7 +52,7 @@
     font-style: normal;
   }
 
-  .scroll {
+  .scroll-arrow {
     display: block;
     background: url("assets/images/arrow.png") no-repeat;
     width: 44px;
@@ -85,40 +85,49 @@
         <img class='logo' src="assets/images/icon.svg" alt="WOAP Icon">
         <div>
           <span class="brand">Burger Brick Road</span>
-          <p class="brand-subtitle">Find the top 10 burgers that are suited to your personal location and price range. 
-Why wait when you’re hungry?
-</p>
+          <p class="brand-subtitle">Find the top 10 burgers that are suited to your personal location and price range.
+            Why wait when you’re hungry?
+          </p>
         </div>
         <div>
-          <a href="#1" class="scroll"></a>
+          <a href="#1" class="scroll scroll-arrow"></a>
         </div>
       </section>
 
       <section class="section2">
         <div>
-          <span class="section-title">Pick a price</span>
-          <form>
-            <input type="decimal" id="priceMin">
-            <input type="decimal" id="priceMax">
+          <span class="section-title">Tell us your price range</span>
+            <p class="description">Judgement free zone but, select your price range for your burger. </p>
+          <form class="price-range">
+            <span class="min">
+              <label class="price-range-label" for="priceMin">Minimum</label>
+              <input type="decimal" class="price-range-input" id="priceMin">
+            </span>
+            <span class="max">
+              <label class="price-range-label" for="priceMax">Maximum</label>
+              <input type="decimal" class="price-range-input" id="priceMax">
+            </span>
           </form>
+            <!-- <button class="text-button scroll" href="#3">Next</button> -->
+               <a href="#3" class="text-button scroll">Next</a>
         </div>
       </section>
 
 
       <div class="section3">
 
-          <span class="section-title">Pick a location</span>
-          <p class="description">Select near where you want to eat by clicking on the map</p>
+        <span class="section-title">Pick a location</span>
+        <p class="description">Select near where you want to eat by clicking on the map</p>
 
-          <!--map div-->
-          <div id="map" class="map"></div>
+        <!--map div-->
+        <div id="map" class="map"></div>
 
-          <!-- <form method="post">
-          <input type="text" id="lat" readonly="yes"><br>
-          <input type="text" id="lng" readonly="yes">
-        </form> -->
+        <!-- <form method="post">
+        <input type="text" id="lat" readonly="yes"><br>
+        <input type="text" id="lng" readonly="yes">
+      </form> -->
 
-        <button class="text-button" onclick="submitInput()">Generate</button>
+      <button class="text-button" onclick="submitInput()">Generate</button>
 
     </div>
 
@@ -131,21 +140,21 @@ Why wait when you’re hungry?
         <!--            </div>-->
       </div>
     </section>
-</div>
-<div class="results-div" id="results-div">
+  </div>
+  <div class="results-div" id="results-div">
     <h4>Your closest 10</h4>
     <p></p>
-</div>
-<!-- All JS files -->
-<script src="js/full-page-scroll.js"></script>
-<script type="text/javascript">
-    new fullScroll({
-      mainElement: 'main',
-      displayDots: true,
-      dotsPosition: 'left',
-      animateTime: 0.7,
-      animateFunction: 'ease'
-    });
+  </div>
+  <!-- All JS files -->
+  <script src="js/full-page-scroll.js"></script>
+  <script type="text/javascript">
+  new fullScroll({
+    mainElement: 'main',
+    displayDots: true,
+    dotsPosition: 'left',
+    animateTime: 0.7,
+    animateFunction: 'ease'
+  });
   </script>
   <script src="js/main.js"></script>
 </body>
