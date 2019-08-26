@@ -4,7 +4,9 @@ A Wellington On A Plate project to find the top 10 burgers that are suited to yo
 
 Made with ❤️ by Nevin Jojo, Amber Joseph, Annisha Akosah, Jack Hazlehurst, and Blake Dine.
 
-![Preview](assets/preview.png)
+ <p align="center"> 
+    <img src="assets/ezgif-4-1c879702d2b7.gif" alt="App Demo">
+ </p>
 
 
 **Notes**
